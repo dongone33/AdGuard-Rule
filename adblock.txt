@@ -2,7 +2,7 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-07-24 12:57:26(GMT+8) 
+! ! Version: 2026-07-24 13:07:31(GMT+8) 
 ! Total count: 455957
  
 ###AC_ad

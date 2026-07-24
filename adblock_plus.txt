@@ -2,7 +2,7 @@
 ! Title: AdRules AdBlock List Plus
 ! Expires: 12h (update frequency)
 ! Description: AdRules AdBlock List's Plus Verison, And Add Some Filters
-! ! Version: 2026-07-24 12:57:26(GMT+8) 
+! ! Version: 2026-07-24 13:07:31(GMT+8) 
 ! Total count: 455961
  
 ###AC_ad

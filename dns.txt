@@ -3,7 +3,7 @@
 ! Expires: 12h (update frequency)
 ! Description: The DNS Filters (Support Adguard)
 ! Total count: 164505 
-! Update: 2026-07-24 12:57:29(GMT+8)
+! Update: 2026-07-24 13:07:34(GMT+8)
 /^.+stat\.kugou\.com/
 /^admarvel\./
 /^admaster\./
