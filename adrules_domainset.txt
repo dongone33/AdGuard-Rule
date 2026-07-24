@@ -1,6 +1,6 @@
 # Title:AdRules Domain List (Clash) 
-# Update: 2026-07-24 13:07:34(GMT+8)
-# 164072 Rules
+# Update: 2026-07-24 14:10:46(GMT+8)
+# 164092 Rules
 +.0.avmarket.rs
 +.0.www.0ul1wlo58s-vu69us-r1u.xyz
 +.0.www.2wu0m0ms098w7148.xyz
@@ -1456,6 +1456,7 @@
 +.2z1bu5for5z7qx.cfd
 +.2z1fxurtnx1i18bln.cfd
 +.2zjftxgl5s.com
++.2znhicyotu4e5bj5.rest
 +.2znp09oa.com
 +.2ztav5r7r.com
 +.2zxm2pb3q38m2k.cfd
@@ -21537,6 +21538,7 @@
 +.bjk08260ip.com
 +.bjk08261ip.com
 +.bjk3irj9inujonozb9k3qygw.cfd
++.bjknycplkbyse.site
 +.bjkoi.incommonbeauty.com
 +.bjlg2lhfw1vpo4.cfd
 +.bjljknoklotqebh.com
@@ -45390,6 +45392,7 @@
 +.etaindia.org
 +.etaindiaonline.com
 +.etarg.ru
++.etasscoffstopers.cfd
 +.etatistreown.qpon
 +.etbbvbulyhyyo.space
 +.etbgc71fv2p3lor6cz.cfd
@@ -57359,6 +57362,7 @@
 +.gyrzdgtnhijjf.online
 +.gys5.com
 +.gyspsffbmfefx.space
++.gysqsokhnysqp.space
 +.gytfpn.thdamshoes.com
 +.gyunqnwvqvooi.online
 +.gyvestaxis.cyou
@@ -58504,6 +58508,7 @@
 +.hellomobile.fr
 +.hellosherpa.com
 +.hellounbox.com
++.helltailer.cyou
 +.helltraffic.com
 +.helmssiestas.qpon
 +.helmsuction.com
@@ -58727,6 +58732,7 @@
 +.hftzrg.123pneus.be
 +.hfucdcmuurafe.website
 +.hfulicte.com
++.hfusiuuqknbwy.site
 +.hfvn6kcfykruk79p337e69h8pnrw.cfd
 +.hfvura.noriel.ro
 +.hfxvwhstgitib.site
@@ -60765,6 +60771,7 @@
 +.hxijqcarzkwps.online
 +.hxjhfqrolubqs.space
 +.hxjrxfwgbwlvk.online
++.hxjwiwl6j6hc8yb.cfd
 +.hxk8yvpuyzcv56fm6llwtmuyzc2wh9.cfd
 +.hxmcaugiqijkz.store
 +.hxmssa.wordans.nl
@@ -67964,6 +67971,7 @@
 +.jwskgkxnwdivg.online
 +.jwsltekcmzhkj.store
 +.jwt18trhq.com
++.jwtnkxjxyphes.site
 +.jwtnmo.promovacances.com
 +.jwube4zf2ffv6o4j.cfd
 +.jwufajjpajnfq.website
@@ -70273,6 +70281,7 @@
 +.kxexlhdbaosee.website
 +.kxfnuquwjicjt.site
 +.kxfvdkxarxejz.space
++.kxfvjpivboxjv.com
 +.kxg49cluu2t3g7.rest
 +.kxgteafuhnpoz.online
 +.kxid.cn
@@ -91491,6 +91500,7 @@
 +.njutbnafvyzwf.space
 +.njvgksjrtiuqx.space
 +.njxcbzvxmmdgk.website
++.njxnmthoeyler.online
 +.njxnsb.paodeacucar.com
 +.njxrpzdwiduhs.online
 +.njzjs.evenflo.com
@@ -95738,6 +95748,7 @@
 +.outstreamoctober.store
 +.outtechnicalspiteful.com
 +.outube.com
++.outviedgeratyawrong.qpon
 +.outwardtimetable.com
 +.outwearcirri.qpon
 +.outwilelemuria.qpon
@@ -97893,6 +97904,7 @@
 +.peacefulmeadowwalk.com
 +.peach-analytics.vercel.app
 +.peachcity.si
++.peachenresound.cyou
 +.peacockvowel.com
 +.peacyx.com
 +.peadeplete.com
@@ -104440,6 +104452,7 @@
 +.qwwrqxlbplpws.website
 +.qwxcs.com
 +.qwxolavxykodb.site
++.qwxxufudvlloq.site
 +.qwzbcukveymrc.online
 +.qwzly.com
 +.qx0.xnxxtubevideos.com
@@ -106378,6 +106391,7 @@
 +.resetdigital.co
 +.resetpassword.surepetcare.io
 +.resewsandrolglucke.qpon
++.reshakeclifts.cfd
 +.reshin.de
 +.reshipparky.cfd
 +.residence.bunkerhilltradingco.info
@@ -108709,6 +108723,7 @@
 +.rubsangust.cfd
 +.rubyblu.com
 +.rucecnegkrxul.site
++.ruchbahcleek.qpon
 +.ruchika29access55824.acemlna.com
 +.rucksack85.top
 +.rucounter.ru
@@ -118172,6 +118187,7 @@
 +.slbvjghvipanf.online
 +.slc.cbssports.com
 +.slc.commerce.naver.com
++.slccoxulwhith.space
 +.slckdomlqflj.com
 +.slcuse.com
 +.sldoj.shoptimized.net
@@ -148213,6 +148229,7 @@
 +.untidyrice.com
 +.untiedchalaurelia.qpon
 +.untiested.com
++.untighttheyve.shop
 +.untiingaplombs.cyou
 +.untileakin.qpon
 +.untily.com
@@ -148684,6 +148701,7 @@
 +.urnwhereabouts.com
 +.urocystfoozler.cyou
 +.urogrambaskets.cyou
++.urophimahuaaedilic.cyou
 +.uropodobolet.cfd
 +.uroqgj.wind.it
 +.urpaldueuqktf.website
@@ -152804,6 +152822,7 @@
 +.vtx2r60nuf.com
 +.vtxnfezsswgbq.website
 +.vtxutkucrrxoj.website
++.vtygcvzmvchms.online
 +.vtyhisondajb.in
 +.vtyusrunq.com
 +.vtzad.focl.com
@@ -153813,6 +153832,7 @@
 +.wcgsk.promixnutrition.com
 +.wchb264t1v153g3p4t54oekq.rest
 +.wchjfv.apartmenttherapy.com
++.wchkbyhrxwtig.site
 +.wchypueyeounn.space
 +.wcikamgamzc.com
 +.wcjvygnl.seafairyachts.com
