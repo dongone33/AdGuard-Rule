@@ -1,4 +1,4 @@
-# Update time: 2026-07-25 10:25:30
+# Update time: 2026-07-25 21:19:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,46 +47,65 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||p*.adkwai.com^
+||sf*-fe-tos.pglstatp-toutiao.com^
+||log*-applog-lq.fqnovel.com^
 ||p*-ff.adkwai.com^
-||video-*.pddpic.com^
-||pull-*-*.ixigua.com^
-||v*-default.ixigua.com^
-@@||imapi5-oth-*.zijieapi.com^
-||s*voicecloud.cn^
-||v*.gdt.qq.com^
+||tnc0-*.zijieapi.com^
+||download*.vzuu.com^
+||ads*-normal-lf.zijieapi.com^
+||ads*-normal-lq.zijieapi.com^
+||sf*-be-pack.pglstatp-toutiao.com^
+||api-access.pangolin-sdk-toutiao-*.com^
+||az*-upload-js.gifshow.com^
+||ads*.papegames.com^
 ||p*-ad.adukwai.com^
+||p*-be-pack-sign.pglstatp-toutiao.com^
+||ads*-normal.zijieapi.com^
+||lf-leads-fe-scm.bytecdn.com.*.queniubg.com^
+||ads-*.xhscdn.com^
+||p*-lm.adukwai.com^
+||az*-upload.ksapisrv.com^
+||pagead*.googlesyndication-cn.com^
+||p*-lm.adkwai.com^
+||polaris*-normal-lq.zijieapi.com^
+||rtlog*-applog-lq.fqnovel.com^
+||pagead*.googleadservices-cn.com^
+||v*.gdt.qq.com^
 ||ad.*toutiao.com^
 ||vdn*.vzuu.com^
 ||p*-ecom-qualification-sign.ecombdimg.com^
+||video-*.pddpic.com^
 ||api-p*.yksdks.com^
-||p*-lm.adukwai.com^
+||pull-*-*.ixigua.com^
+||v*-default.ixigua.com^
+@@||imapi5-oth-*.zijieapi.com^
 @@||mssdk3-normal-*.zijieapi.com^
-||p*-lm.adkwai.com^
+||s*voicecloud.cn^
 ||p*-pro.a.yximgs.com^
+||zazgiyoh*.world^
 ||zcchyr*.xyz^
+||zabdybod*.club^
 ||js.*2023*.live^
+||yhsfsdv*.com^
+||thezbpe5*.xyz^
 ||zaqlovh*.xyz^
 ||zazgiyoh*.xyz^
 ||zcchyw*.xyz^
-||molpmh.xyz|
-||sd.yhzzzs*.com^
-||bjkedv*.xyz^
-||p26.gejulm*.com^
-||gtlpa*.com^
-||at*.doubanio.com^
-||zazgiyoh*.world^
-||zabdybod*.club^
-||yhsfsdv*.com^
-||thezbpe5*.xyz^
 ||zazgbqg*.xyz^
+||molpmh.xyz|
 ||js.*2023*.xyz^
+||sd.yhzzzs*.com^
 @@||cdn-msp*.18comic.*^
 ||zbc6hye*.xyz^
 ||opnked*.xyz^
 ||www.xxmh*.com^
 ||163487*.qmgmw.com^
+||bjkedv*.xyz^
+||p26.gejulm*.com^
 ||zahrvfbd*.xyz^
 ||zbc6hy*.live^
+||gtlpa*.com^
 @@||cdn-msp*.18comic*.*^
 ||fbia.*.cn^
 ||sat29.so*koaq.com^
@@ -130,11 +149,13 @@ t7z.cupid.iqiyi*
 ||dn*.ixinwei.com^
 ||api16-access-ttp*.tiktokpangle-b.us^
 @@||p*-piu.byteimg.com^
+||counter*.stat.ovh^
 @@||lf*-dy-cdn-tos.bytegecko.com^
 @@||p*-img.searchpstatp.com^
 @@||p*-passport.byteacctimg.com^
 ||ad*.on.cc^
 @@||lf*-baike.searchpstatp.com^
+||ads.livetv*.me^
 ||allsportsflix.
 @@||p*-novel.byteimg.com^
 ||v*-ad.video.yximgs.com^
@@ -154,6 +175,7 @@ t7z.cupid.iqiyi*
 ||p*-ad-aweme.byteimg.com^
 @@||p*-faceu-img-sign.byteimg.com^
 ||ads*-normal-lq.zijieapi.com.queniuiq.com^
+||advertising.civitai.
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 ||ads*-normal-hl.amemv.com^
@@ -165,6 +187,7 @@ t7z.cupid.iqiyi*
 ||ads*-normal-*.zijieapi.com^
 ||stw.zone-telechargement.
 ||api*.bidmachine.io^
+||a*.chajiaotong.com^
 ||adserver.*.yahoodns.net^
 ||fpb*.51edu.com^
 @@||lf*-infras.bytetos.com^
@@ -186,7 +209,7 @@ Banner468x60
 ||ads*.textra.me^
 ||us.*.qwadro.com^
 ||res*.pinpai8.cn^
-||ads*-normal-lf.zijieapi.com^
+@@||v*.douyinvod.com^
 @@||img*.funshion.com^
 ||lf*-orange.byteorge.com^
 ||ifengad.*.ifeng.com^
@@ -208,6 +231,7 @@ Banner468x60
 ||sf*-ttcdn-tos.pstatp.com^
 ||cdn-adn-*.rayjump.com^
 @@||p*-sdbk2-media.byteimg.com^
+||reachableads-av.*.amazonaws.com^
 ||bdcpro*.techweb.com.cn^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||uc*.atobo.com^
@@ -221,20 +245,19 @@ Banner468x60
 ||ad*.nexage.com^
 ||util-*.simply-hentai.com^
 ||aan.amazon.*^
-||ya*.dwstatic.com^
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 @@||cm-10-*.getui.com^
 ||ads*-normal-lf.zijieapi.com.dhcp^
 ||bjsvp*.space^
 @@||n*-lf*-dy-ncdn-tos-sub.bytegecko.com^
+||rtb-*.anysex.com^
 @@||lf*material.searchpstatp.com^
 ||adx-*.dbankcloud.
 ||mediate-ios-*.hyprmx.com^
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 @@||p*-ecop-imagex.byteimg.com^
 ||ads*-normal-lf.amemv.com^
-||ads*-normal-lq.zijieapi.com^
 ||tnc16-*.byteoversea.com^
 ||gcw*.2liang.cn^
 @@||lf*-webcast-cdn-tos.bytegecko.com^
@@ -244,7 +267,6 @@ Banner468x60
 ||p*-webcast-sign.douyinpic.com^
 @@||p*-ecom-fe.byteimg.com^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
-||ads*-normal.zijieapi.com^
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
 ||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
@@ -324,6 +346,7 @@ Banner468x60
 ||tupian888.*.bcebos.com^
 ||impservice*.yodao.com^
 728x90.jpg|
+||ya*.dwstatic.com^
 ||ax.*.ifeng.com^
 ||onetrust.
 ||121.204.246.*.gif
@@ -387,6 +410,7 @@ Banner468x60
 ||xn--wxtr9fwyxk9c.*^
 ||d*.xinshipu.com^
 ||p*-ad-sign.byteimg.com^
+||at*.doubanio.com^
 ||dm*.yxlady.com^
 ||same*.stockstar.com^
 ||gg*.miguvideo.com^
@@ -516,7 +540,6 @@ Banner468x60
 ||eum*.instana.io^
 ||report.*.gbqofs.io^
 ||fads*s.com^
-||tracking.geo.*.amazonaws.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||collector-*.protechts.net^
 ||attr-logs.*.amazonaws.com^
@@ -563,11 +586,9 @@ Banner468x60
 ||apple-*.le.com^
 ||imp-*.jampp.com^
 ||mobileanalytics.*.amazonaws.com^
-||tracking.*.miui.com^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
-||a*.chajiaotong.com^
 ||gads*s.com^
 ||gscounters.*.gigya.com^
 ||fads*z.com^
@@ -659,9 +680,7 @@ analytics-*.aasaam.com
 ||adservice.google.
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
-||counter*.stat.ovh^
 |load.sst.
-||ads.livetv*.me^
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||bondzgi*.
@@ -693,10 +712,10 @@ analytics-*.aasaam.com
 ||wa.gmx.
 ||s*.skencituer.com^
 ||underclick.
-||advertising.civitai.
 ||cnt.yeptube.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
+||tracking.*.miui.com^
 ||putrr*.com^
 ||alishop*.ru^
 ||pijama.*.elasticbeanstalk.com^
@@ -786,7 +805,6 @@ analytics-*.aasaam.com
 ||pixel.archive.
 ||track.tiara.
 ||orbit*.lun.ua^
-||reachableads-av.*.amazonaws.com^
 ||popupclick.
 ||ad*.gyaloglo.hu^
 ||ad*.thisisgame.com^
@@ -809,7 +827,6 @@ analytics-*.aasaam.com
 ||thegreatesthits.
 ||adserver1.
 ||ad*.mellesleg.hu^
-||rtb-*.anysex.com^
 ||sgtm.wimdu.
 ||countly-
 ||countly.
@@ -822,6 +839,7 @@ analytics-*.aasaam.com
 ||broredir*s.site^
 ||admulti.
 ||parkdomainreal*.site^
+||tracking.geo.*.amazonaws.com^
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||stat.tiara.
