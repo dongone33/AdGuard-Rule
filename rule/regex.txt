@@ -1,4 +1,4 @@
-# Update time: 2026-07-24 21:38:48
+# Update time: 2026-07-25 10:25:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -130,13 +130,11 @@ t7z.cupid.iqiyi*
 ||dn*.ixinwei.com^
 ||api16-access-ttp*.tiktokpangle-b.us^
 @@||p*-piu.byteimg.com^
-||counter*.stat.ovh^
 @@||lf*-dy-cdn-tos.bytegecko.com^
 @@||p*-img.searchpstatp.com^
 @@||p*-passport.byteacctimg.com^
 ||ad*.on.cc^
 @@||lf*-baike.searchpstatp.com^
-||ads.livetv*.me^
 ||allsportsflix.
 @@||p*-novel.byteimg.com^
 ||v*-ad.video.yximgs.com^
@@ -167,7 +165,6 @@ t7z.cupid.iqiyi*
 ||ads*-normal-*.zijieapi.com^
 ||stw.zone-telechargement.
 ||api*.bidmachine.io^
-||a*.chajiaotong.com^
 ||adserver.*.yahoodns.net^
 ||fpb*.51edu.com^
 @@||lf*-infras.bytetos.com^
@@ -189,7 +186,6 @@ Banner468x60
 ||ads*.textra.me^
 ||us.*.qwadro.com^
 ||res*.pinpai8.cn^
-@@||v*.douyinvod.com^
 ||ads*-normal-lf.zijieapi.com^
 @@||img*.funshion.com^
 ||lf*-orange.byteorge.com^
@@ -212,7 +208,6 @@ Banner468x60
 ||sf*-ttcdn-tos.pstatp.com^
 ||cdn-adn-*.rayjump.com^
 @@||p*-sdbk2-media.byteimg.com^
-||reachableads-av.*.amazonaws.com^
 ||bdcpro*.techweb.com.cn^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||uc*.atobo.com^
@@ -226,6 +221,7 @@ Banner468x60
 ||ad*.nexage.com^
 ||util-*.simply-hentai.com^
 ||aan.amazon.*^
+||ya*.dwstatic.com^
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 @@||cm-10-*.getui.com^
@@ -328,7 +324,6 @@ Banner468x60
 ||tupian888.*.bcebos.com^
 ||impservice*.yodao.com^
 728x90.jpg|
-||ya*.dwstatic.com^
 ||ax.*.ifeng.com^
 ||onetrust.
 ||121.204.246.*.gif
@@ -521,6 +516,7 @@ Banner468x60
 ||eum*.instana.io^
 ||report.*.gbqofs.io^
 ||fads*s.com^
+||tracking.geo.*.amazonaws.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||collector-*.protechts.net^
 ||attr-logs.*.amazonaws.com^
@@ -567,9 +563,11 @@ Banner468x60
 ||apple-*.le.com^
 ||imp-*.jampp.com^
 ||mobileanalytics.*.amazonaws.com^
+||tracking.*.miui.com^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
+||a*.chajiaotong.com^
 ||gads*s.com^
 ||gscounters.*.gigya.com^
 ||fads*z.com^
@@ -661,7 +659,9 @@ analytics-*.aasaam.com
 ||adservice.google.
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
+||counter*.stat.ovh^
 |load.sst.
+||ads.livetv*.me^
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||bondzgi*.
@@ -697,7 +697,6 @@ analytics-*.aasaam.com
 ||cnt.yeptube.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
-||tracking.*.miui.com^
 ||putrr*.com^
 ||alishop*.ru^
 ||pijama.*.elasticbeanstalk.com^
@@ -787,6 +786,7 @@ analytics-*.aasaam.com
 ||pixel.archive.
 ||track.tiara.
 ||orbit*.lun.ua^
+||reachableads-av.*.amazonaws.com^
 ||popupclick.
 ||ad*.gyaloglo.hu^
 ||ad*.thisisgame.com^
@@ -822,7 +822,6 @@ analytics-*.aasaam.com
 ||broredir*s.site^
 ||admulti.
 ||parkdomainreal*.site^
-||tracking.geo.*.amazonaws.com^
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||stat.tiara.
