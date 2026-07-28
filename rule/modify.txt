@@ -1,4 +1,4 @@
-# Update time: 2026-07-27 22:27:41
+# Update time: 2026-07-28 10:15:00
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -52,7 +52,47 @@
 *-be-pack-sign.pglstatp-toutiao.com*
 *-normal.zijieapi.com*
 *-ad.wtzw.com*
-::1 ip6-localhost
+||ad.wx.com:12638^
+||*.voiceads.cn^
+||*/snscosdownload/*/reserved/*^
+||*pangolin*toutiao*.com^
+||*-reading-ad.qznovelvod.com^
+||*googleads*^
+||*-ad.adukwai.com^
+||*-ad.adbkwai.com^
+||*.applovin.com^
+||*pglstatp-toutiao.com^
+||api.zhihu.com/ad-style-service
+||*ad.wtzw.com^
+||*adintl.cn^
+||*/omts.tc.qq.com^
+||*.ads.heytapmobi.com^
+||api.zhihu.com/ab/*^
+||*unityads.unity3d.com^
+||*-ad-sign.byteimg.com^
+||*.juicyads.me^
+||*-ad-union-sdk.pglstatp-toutiao.com^
+||*googleadsserving.cn^
+||*-ad.adkwai.com^
+/.*tsyouto.*/
+/.*bytegoofy.*/
+/.*ad.wtzw.com.*/
+/.*byteorge.*/
+！白名单/放行条
+/.*zijieapi.*/
+/.*umeng.*/
+/.*bytegecko.*/
+/.*ad-sign.*/
+/.*mgsdk-sign.*/
+||*.video.qq.com^
+/.*adservice.*/
+/.*bytedance.*/
+/.*pangolin.*/
+/.*pglstatp.*/
+/.*adsmind.*/
+/.*panglelog.*/
+||*video.baidu.com^
+/.*ibytedapm.*/
 baidu.com##[data-log-view*='swan-ad-fc-ad-item']
 ip.sb##[style='text-align: center;margin: 20px 0;width: 100%;']
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1387,47 +1427,7 @@ qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 10
 cloudflareinsights.com$third-party
 ##[src^="https://img.sobot.com/chatres/"][title="sb"]
 ||pan0304.com/ads.
-/.*tsyouto.*/
-/.*bytegoofy.*/
-/.*ad.wtzw.com.*/
-/.*byteorge.*/
-！白名单/放行条
-/.*zijieapi.*/
-/.*umeng.*/
-/.*bytegecko.*/
-/.*ad-sign.*/
-/.*mgsdk-sign.*/
-||*.video.qq.com^
-/.*adservice.*/
-/.*bytedance.*/
-/.*pangolin.*/
-/.*pglstatp.*/
-/.*adsmind.*/
-/.*panglelog.*/
-||*video.baidu.com^
-/.*ibytedapm.*/
-||ad.wx.com:12638^
-||*.voiceads.cn^
-||*/snscosdownload/*/reserved/*^
-||*pangolin*toutiao*.com^
-||*-reading-ad.qznovelvod.com^
-||*googleads*^
-||*-ad.adukwai.com^
-||*-ad.adbkwai.com^
-||*.applovin.com^
-||*pglstatp-toutiao.com^
-||api.zhihu.com/ad-style-service
-||*ad.wtzw.com^
-||*adintl.cn^
-||*/omts.tc.qq.com^
-||*.ads.heytapmobi.com^
-||api.zhihu.com/ab/*^
-||*unityads.unity3d.com^
-||*-ad-sign.byteimg.com^
-||*.juicyads.me^
-||*-ad-union-sdk.pglstatp-toutiao.com^
-||*googleadsserving.cn^
-||*-ad.adkwai.com^
+::1 ip6-localhost
 ||*ad.adbkwai.com^
 ||*.9tjoj6.com^
 ||*.mokhuba.com^
@@ -2210,64 +2210,6 @@ kaermorhen.ru###top-line-container
 ##.svg-adblock-full
 okanime.tv##.jconfirm
 radiox.com##.notifyjs-corner
-.m.bookben.com^
-.160x600.
-.wap.x4399.com^
--600x90-
--460x68.
--600x70.
--728-90-
--728-90.
-.m.wenxuemi.cc^
--980x60-
-.900x100.
-||*-ad.gskwai.com^
--468-60-
--468x80.
--468x60.
-.m.muyuge.com^
--468x60-
--729x91-
--120x600-
--468-60.
--486x60.
--120x600.
--300-250.
-||*-ad.wtzw.com^
--banner-iklan-
--728x90-
--728x90.
--500x100.
-.728x90-
-@@||*m.chenzhongtech.com^
--780x90-
--120-600.
-.m.qiuwu.net^
--988x60.
-.m.zineworm.com^
--160x600.
-.480x60-
--480x60-
--720x90.
--480x60.
--720x90-
-.480x60.
--300x600.
--468x90.
-.m.gxwztv.com^
-.468x60.
-.468x80-
--160-600.
-.468x80.
--468x70.
-@@||*ad*.ksyungslb.com^
-.468x60-
-.m.fhxiaoshuo.com^
--468-100.
-.120x600.
-.300x250.
-.m.d8qu.com^
-.m.kanshuzw.com^
 ||*novel.byteimg.com^
 ||*ks.qm*.com^
 *log*snssdk*
@@ -2334,6 +2276,64 @@ radiox.com##.notifyjs-corner
 ||*.bjmantis.net^
 ||*.dns-detect.alicdn.com^
 #@@||otheve.beacon.qq.com^
+.m.bookben.com^
+.160x600.
+.wap.x4399.com^
+-600x90-
+-460x68.
+-600x70.
+-728-90-
+-728-90.
+.m.wenxuemi.cc^
+-980x60-
+.900x100.
+||*-ad.gskwai.com^
+-468-60-
+-468x80.
+-468x60.
+.m.muyuge.com^
+-468x60-
+-729x91-
+-120x600-
+-468-60.
+-486x60.
+-120x600.
+-300-250.
+||*-ad.wtzw.com^
+-banner-iklan-
+-728x90-
+-728x90.
+-500x100.
+.728x90-
+@@||*m.chenzhongtech.com^
+-780x90-
+-120-600.
+.m.qiuwu.net^
+-988x60.
+.m.zineworm.com^
+-160x600.
+.480x60-
+-480x60-
+-720x90.
+-480x60.
+-720x90-
+.480x60.
+-300x600.
+-468x90.
+.m.gxwztv.com^
+.468x60.
+.468x80-
+-160-600.
+.468x80.
+-468x70.
+@@||*ad*.ksyungslb.com^
+.468x60-
+.m.fhxiaoshuo.com^
+-468-100.
+.120x600.
+.300x250.
+.m.d8qu.com^
+.m.kanshuzw.com^
 ||*.19pgldy0324.cc^
 ||*-jor0b302fdhgwnccw8g.com^
 ||*-pitaya.bytetos.com^
@@ -43283,7 +43283,6 @@ thepostmillennial.com##.ads-floating-mobile
 misatopi.com##.entry-list:has(> li > a[href^="https://px.a8.net"])
 nikkansports.com##.newsBody > p > span[style="color:#333;font-weight:bold;display:block;margin-top:1em;font-size:16px;"]
 medicalnewstoday.com##.css-1sh726
-newegg.com##+js(json-prune-fetch-response,  RecommendItems.RecommendInfo.[-].DataSource.[=].spsr RecommendInfo.[-].DataSource.[=].spsr, , m/product/ajax/productPersonalization)
 fontech.startitup.sk##div[class^="code-block code-block-"][style]
 otakuma.net##.featured-article:has(> a[target="_blank"] > div.featured-title > span)
 andhrajyothy.com##.onlyMobileADS
@@ -43737,7 +43736,6 @@ qiita.com##.p-items_main > div > div > div > div#dfp-slot-article-after-referenc
 wowhead.com##.is-btf
 fengche530.com##body > div[style="width:100%;height:120px;"]
 dictionary.cambridge.org##div[id^="ad_topslot"]
-freepdfcomic.eu##.site-content div[class^="wrap"][style="overflow:auto;display:flex;gap:0px 2px;"]
 .ru^$3p,script,domain=muzmob.org
 m.tvspielfilm.de##.adHeight250
 ||presselite.com/iphone/pushnotification/interstitiel_android.php
@@ -45295,7 +45293,6 @@ indianexpress.com##.body-part > .mobile:has(> .top-ads-mobile)
 tempo.co##section#update.list > .block-box:has(> h2:contains(/^Baca Juga$/) + div:last-child > .adsbygoogle):style(visibility: hidden!important;)
 news18.com##div[class*="Footer_closestickybtn_"]
 ||blog-sokuhou.com^$domain=bakufu.jp
-hdtube.porn,pornid.*,sex3.com,rat.xxx,hdxnxx.xxx,zbporn.com,xbabe.com,hdpornfree.xxx,hellporno.net###fltd
 figsoku.net##div[id^="ota-wid"][id$="_6"]
 filext.com##.dap-wrap
 erobanach.com##+js(addEventListener-defuser, , returnAd)
@@ -45498,6 +45495,7 @@ dzen.ru##div[class*="news"] > div[class*="_banner_"]
 veranda.com,wetter.com##div[class^="sc-"]:has(> div.ad-container)
 @@||ads.adfox.ru/*/getCodeTest?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 ||asmhentai.com/js/ajs_v2.js
+newegg.com##+js(json-prune-fetch-response,  RecommendItems.RecommendInfo.[-].DataSource.[=].spsr RecommendInfo.[-].DataSource.[=].spsr, , propsToMatch, m/product/ajax/productPersonalization)
 gridoto.com###js-banner-sticky
 wetter.com##div[id^="somtag-container"]
 m.ynet.co.il##._adunit_
@@ -46128,6 +46126,7 @@ aba-net.com##.sp_header_banner
 animeland.tv,animeflv.net,kiss-anime.me###adsFloat1
 amazon.de###content > .a-spacing-top-large > .a-section[style="display: none !important;"] + .a-divider-normal
 cumhuriyet.com.tr##header > address + div[style^="text-align:center; margin-bottom:20px;"]
+sexvid.xxx,hdtube.porn,pornid.*,sex3.com,rat.xxx,hdxnxx.xxx,zbporn.com,xbabe.com,hdpornfree.xxx,hellporno.net###fltd
 estadao.com.br##.nav-bar-reserved-area:style(height: 48px !important;)
 sorkab.com##a[href^="https://ad-nex.com/"]
 inside-digital.de##.spo-marker
@@ -82733,6 +82732,7 @@ wykop.pl$badfilter
 ||https://poerlsdosfpsfoeriso.site
 ||https://incamvento.cyou
 ||https://9239h9459.shop
+||https://www.kskofpsdklsfpsfsfkl.site
 ||https://www.alzora-invyra.digital
 ||https://analytics.discountpowertx.com
 ||https://banner.monacogoldcasino.com
