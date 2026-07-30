@@ -1,4 +1,4 @@
-# Update time: 2026-07-29 22:04:29
+# Update time: 2026-07-30 10:06:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -106,6 +106,23 @@ t7z.cupid.iqiyi*
 ||api*dutils.com^
 ||uu.163*
 ||mobads*baidu.com
+||dnsrr9.wym*.com^
+||dnsa*f.*zzy.com^
+||dns*po.lzn376.com^
+||log*-misc-lf.amemv.com^
+||beacons*.gvt3.com^
+||fp-it*.fengkongcloud.com^
+||tnc*.zijieapi.com^
+||dnszcp.zzg*.com^
+||report.*.qq.com^
+||dnsxyc.wym*.com^
+||click*forhz.adsmogo.com^
+||dns*.londrimarketing.com.br^
+||log*.aliyuncs.com^
+||dnsnio.*.com^
+||dns-*.eastus.cloudapp.azure.com^
+||dns.weixin.qq.com*^
+||httpdns.*.yy.com^
 ||creative*.bidease.com^
 ||fanpingbi*.gaokao.com^
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
@@ -136,6 +153,7 @@ t7z.cupid.iqiyi*
 ||data.anisearch.
 ||p*-ad-aweme.byteimg.com^
 @@||p*-faceu-img-sign.byteimg.com^
+||advertising.civitai.
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 @@||lf*-webcastcdn-tos.douyinstatic.com^
@@ -199,11 +217,13 @@ Banner468x60
 ||ad*.nexage.com^
 ||util-*.simply-hentai.com^
 ||aan.amazon.*^
+||ya*.dwstatic.com^
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 @@||cm-10-*.getui.com^
 ||bjsvp*.space^
 @@||n*-lf*-dy-ncdn-tos-sub.bytegecko.com^
+||rtb-*.anysex.com^
 @@||lf*material.searchpstatp.com^
 ||adx-*.dbankcloud.
 ||mediate-ios-*.hyprmx.com^
@@ -221,23 +241,6 @@ Banner468x60
 ||p*-ad.bytecdn.cn
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
-||dnsrr9.wym*.com^
-||dnsa*f.*zzy.com^
-||dns*po.lzn376.com^
-||log*-misc-lf.amemv.com^
-||beacons*.gvt3.com^
-||fp-it*.fengkongcloud.com^
-||tnc*.zijieapi.com^
-||dnszcp.zzg*.com^
-||report.*.qq.com^
-||dnsxyc.wym*.com^
-||click*forhz.adsmogo.com^
-||dns*.londrimarketing.com.br^
-||log*.aliyuncs.com^
-||dnsnio.*.com^
-||dns-*.eastus.cloudapp.azure.com^
-||dns.weixin.qq.com*^
-||httpdns.*.yy.com^
 ||xiaoqiang^
 ||fake-domain^
 ||gao1asdjws^
@@ -314,7 +317,6 @@ Banner468x60
 ||tupian888.*.bcebos.com^
 ||impservice*.yodao.com^
 728x90.jpg|
-||ya*.dwstatic.com^
 ||ax.*.ifeng.com^
 ||onetrust.
 ||121.204.246.*.gif
@@ -623,6 +625,7 @@ Banner468x60
 ||chat*-ce.chatdealer.jp^
 ||track-*.hungrypanda.co^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
+||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
 ||analytics-v*.eip.telegraph.co.uk^
 ||gbxreport-*.wf.com^
@@ -679,7 +682,6 @@ analytics-*.aasaam.com
 ||wa.gmx.
 ||s*.skencituer.com^
 ||underclick.
-||advertising.civitai.
 ||cnt.yeptube.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
@@ -765,6 +767,7 @@ analytics-*.aasaam.com
 ||as*.prog.hu^
 ||ulog*.kwaipros.com^
 ||cnt.tubeon.
+||faro.civitai.
 ||vst.videolink.
 ||videoclik.
 ||poshalim.
@@ -794,8 +797,6 @@ analytics-*.aasaam.com
 ||thegreatesthits.
 ||adserver1.
 ||ad*.mellesleg.hu^
-||tracking-*.trnox.com^
-||rtb-*.anysex.com^
 ||sgtm.wimdu.
 ||countly-
 ||countly.
