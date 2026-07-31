@@ -1,4 +1,4 @@
-# Update time: 2026-07-31 10:33:44
+# Update time: 2026-07-31 21:58:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,41 +47,21 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
-||p*.adkwai.com^
-||sf*-fe-tos.pglstatp-toutiao.com^
-||log*-applog-lq.fqnovel.com^
 ||p*-ff.adkwai.com^
-||tnc0-*.zijieapi.com^
-||download*.vzuu.com^
-||ads*-normal-lf.zijieapi.com^
-||ads*-normal-lq.zijieapi.com^
-||sf*-be-pack.pglstatp-toutiao.com^
-||api-access.pangolin-sdk-toutiao-*.com^
-||az*-upload-js.gifshow.com^
-||ads*.papegames.com^
-||p*-ad.adukwai.com^
-||p*-be-pack-sign.pglstatp-toutiao.com^
-||ads*-normal.zijieapi.com^
-||lf-leads-fe-scm.bytecdn.com.*.queniubg.com^
-||ads-*.xhscdn.com^
-||p*-lm.adukwai.com^
-||az*-upload.ksapisrv.com^
-||pagead*.googlesyndication-cn.com^
-||p*-lm.adkwai.com^
-||polaris*-normal-lq.zijieapi.com^
-||rtlog*-applog-lq.fqnovel.com^
-||pagead*.googleadservices-cn.com^
-||v*.gdt.qq.com^
-||ad.*toutiao.com^
-||vdn*.vzuu.com^
-||p*-ecom-qualification-sign.ecombdimg.com^
 ||video-*.pddpic.com^
-||api-p*.yksdks.com^
 ||pull-*-*.ixigua.com^
 ||v*-default.ixigua.com^
 @@||imapi5-oth-*.zijieapi.com^
-@@||mssdk3-normal-*.zijieapi.com^
 ||s*voicecloud.cn^
+||v*.gdt.qq.com^
+||p*-ad.adukwai.com^
+||ad.*toutiao.com^
+||vdn*.vzuu.com^
+||p*-ecom-qualification-sign.ecombdimg.com^
+||api-p*.yksdks.com^
+||p*-lm.adukwai.com^
+@@||mssdk3-normal-*.zijieapi.com^
+||p*-lm.adkwai.com^
 ||p*-pro.a.yximgs.com^
 ||zazgiyoh*.world^
 ||zcchyr*.xyz^
@@ -117,6 +97,7 @@
 ||dciclc.*.top^
 ||0c4d3f6.*.com^
 ||thu15.*.com^
+||xiaoqiang^
 ||p*.douyinpic.com^
 t7z.cupid.iqiyi*
 ||api*qm*com^
@@ -226,6 +207,7 @@ Banner468x60
 ||cdn-adn-*.rayjump.com^
 @@||p*-sdbk2-media.byteimg.com^
 ||reachableads-av.*.amazonaws.com^
+||sf*-fe-tos.pglstatp-toutiao.com^
 ||bdcpro*.techweb.com.cn^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||uc*.atobo.com^
@@ -240,7 +222,6 @@ Banner468x60
 ||ad*.nexage.com^
 ||util-*.simply-hentai.com^
 ||aan.amazon.*^
-||ya*.dwstatic.com^
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 @@||cm-10-*.getui.com^
@@ -252,6 +233,7 @@ Banner468x60
 ||mediate-ios-*.hyprmx.com^
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 @@||p*-ecop-imagex.byteimg.com^
+||ads*-normal-lq.zijieapi.com^
 ||tnc16-*.byteoversea.com^
 ||gcw*.2liang.cn^
 @@||lf*-webcast-cdn-tos.bytegecko.com^
@@ -264,7 +246,6 @@ Banner468x60
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
 ||lf*-ad-union-sdk.pglstatp-toutiao.com^
-||xiaoqiang^
 ||fake-domain^
 ||gao1asdjws^
 ||tnc*-aliec*.zijieapi.com^
@@ -340,6 +321,7 @@ Banner468x60
 ||tupian888.*.bcebos.com^
 ||impservice*.yodao.com^
 728x90.jpg|
+||ya*.dwstatic.com^
 ||ax.*.ifeng.com^
 ||onetrust.
 ||121.204.246.*.gif
