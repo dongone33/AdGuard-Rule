@@ -1,4 +1,4 @@
-# Update time: 2026-08-03 10:33:39
+# Update time: 2026-08-03 22:32:51
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,22 +47,6 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
-||p*-ff.adkwai.com^
-||video-*.pddpic.com^
-||pull-*-*.ixigua.com^
-||v*-default.ixigua.com^
-@@||imapi5-oth-*.zijieapi.com^
-||s*voicecloud.cn^
-||v*.gdt.qq.com^
-||p*-ad.adukwai.com^
-||ad.*toutiao.com^
-||vdn*.vzuu.com^
-||p*-ecom-qualification-sign.ecombdimg.com^
-||api-p*.yksdks.com^
-||p*-lm.adukwai.com^
-@@||mssdk3-normal-*.zijieapi.com^
-||p*-lm.adkwai.com^
-||p*-pro.a.yximgs.com^
 ||zazgiyoh*.world^
 ||zcchyr*.xyz^
 ||zabdybod*.club^
@@ -87,6 +71,22 @@
 ||zbc6hy*.live^
 ||gtlpa*.com^
 @@||cdn-msp*.18comic*.*^
+||p*-ff.adkwai.com^
+||video-*.pddpic.com^
+||pull-*-*.ixigua.com^
+||v*-default.ixigua.com^
+@@||imapi5-oth-*.zijieapi.com^
+||s*voicecloud.cn^
+||v*.gdt.qq.com^
+||p*-ad.adukwai.com^
+||ad.*toutiao.com^
+||vdn*.vzuu.com^
+||p*-ecom-qualification-sign.ecombdimg.com^
+||api-p*.yksdks.com^
+||p*-lm.adukwai.com^
+@@||mssdk3-normal-*.zijieapi.com^
+||p*-lm.adkwai.com^
+||p*-pro.a.yximgs.com^
 ||fbia.*.cn^
 ||sat29.so*koaq.com^
 ||bbcbbi.*.com^
@@ -106,23 +106,6 @@ t7z.cupid.iqiyi*
 ||api*dutils.com^
 ||uu.163*
 ||mobads*baidu.com
-||dnsrr9.wym*.com^
-||dnsa*f.*zzy.com^
-||dns*po.lzn376.com^
-||log*-misc-lf.amemv.com^
-||beacons*.gvt3.com^
-||fp-it*.fengkongcloud.com^
-||tnc*.zijieapi.com^
-||dnszcp.zzg*.com^
-||report.*.qq.com^
-||dnsxyc.wym*.com^
-||click*forhz.adsmogo.com^
-||dns*.londrimarketing.com.br^
-||log*.aliyuncs.com^
-||dnsnio.*.com^
-||dns-*.eastus.cloudapp.azure.com^
-||dns.weixin.qq.com*^
-||httpdns.*.yy.com^
 ||creative*.bidease.com^
 ||fanpingbi*.gaokao.com^
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
@@ -153,7 +136,6 @@ t7z.cupid.iqiyi*
 ||data.anisearch.
 ||p*-ad-aweme.byteimg.com^
 @@||p*-faceu-img-sign.byteimg.com^
-||advertising.civitai.
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 @@||lf*-webcastcdn-tos.douyinstatic.com^
@@ -225,7 +207,6 @@ Banner468x60
 @@||cm-10-*.getui.com^
 ||bjsvp*.space^
 @@||n*-lf*-dy-ncdn-tos-sub.bytegecko.com^
-||rtb-*.anysex.com^
 @@||lf*material.searchpstatp.com^
 ||adx-*.dbankcloud.
 ||mediate-ios-*.hyprmx.com^
@@ -244,6 +225,23 @@ Banner468x60
 ||union*.365inews.com^
 ||lf*-ad-union-sdk.pglstatp-toutiao.com^
 ||xiaoqiang^
+||dnsrr9.wym*.com^
+||dnsa*f.*zzy.com^
+||dns*po.lzn376.com^
+||log*-misc-lf.amemv.com^
+||beacons*.gvt3.com^
+||fp-it*.fengkongcloud.com^
+||tnc*.zijieapi.com^
+||dnszcp.zzg*.com^
+||report.*.qq.com^
+||dnsxyc.wym*.com^
+||click*forhz.adsmogo.com^
+||dns*.londrimarketing.com.br^
+||log*.aliyuncs.com^
+||dnsnio.*.com^
+||dns-*.eastus.cloudapp.azure.com^
+||dns.weixin.qq.com*^
+||httpdns.*.yy.com^
 ||fake-domain^
 ||gao1asdjws^
 ||tnc*-aliec*.zijieapi.com^
@@ -330,11 +328,11 @@ Banner468x60
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||107.167.22.*.gif
+||imgpfx.arenavision.
+||player-feedback*.glomex.*^
 ||m7k4.com*.php?
 ||minero-proxy-*now.sh
 ||ad*.aginomoto.com
-||imgpfx.arenavision.
-||player-feedback*.glomex.*^
 ||da.hornbach.*^
 ||dm-*.toutiao.com^
 ||adsystem*.*^
@@ -450,7 +448,6 @@ Banner468x60
 ||flurry.agentportal.*.yahoodns.net^
 ||rtlog*.tiktokv.com^
 ||ads.*.kugou.com^
-||api-*.bidmachine.io^
 ||logservice-*.platform.dbankcloud.cn^
 ||clickstream-*.homedepot.com^
 ||log*-normal-useast1a.lemon8-app.com^
@@ -512,6 +509,7 @@ Banner468x60
 ||eum*.instana.io^
 ||report.*.gbqofs.io^
 ||fads*s.com^
+||tracking.geo.*.amazonaws.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||collector-*.protechts.net^
 ||attr-logs.*.amazonaws.com^
@@ -558,6 +556,7 @@ Banner468x60
 ||apple-*.le.com^
 ||imp-*.jampp.com^
 ||mobileanalytics.*.amazonaws.com^
+||tracking.*.miui.com^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
@@ -684,10 +683,10 @@ analytics-*.aasaam.com
 ||wa.gmx.
 ||s*.skencituer.com^
 ||underclick.
+||advertising.civitai.
 ||cnt.yeptube.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
-||tracking.*.miui.com^
 ||putrr*.com^
 ||alishop*.ru^
 ||pijama.*.elasticbeanstalk.com^
@@ -795,10 +794,10 @@ analytics-*.aasaam.com
 ||ad.*.doubleclick.net^
 ||s*.adduplex.com^
 ||snowplow-collector-*.amazonaws.com^
-||umami.vidfast.
 ||thegreatesthits.
 ||adserver1.
 ||ad*.mellesleg.hu^
+||rtb-*.anysex.com^
 ||sgtm.wimdu.
 ||countly-
 ||countly.
@@ -811,7 +810,6 @@ analytics-*.aasaam.com
 ||broredir*s.site^
 ||admulti.
 ||parkdomainreal*.site^
-||tracking.geo.*.amazonaws.com^
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||stat.tiara.
