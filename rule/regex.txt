@@ -1,4 +1,4 @@
-# Update time: 2026-08-09 20:43:21
+# Update time: 2026-08-10 09:27:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,6 +47,22 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||p*-ff.adkwai.com^
+||video-*.pddpic.com^
+||pull-*-*.ixigua.com^
+||v*-default.ixigua.com^
+@@||imapi5-oth-*.zijieapi.com^
+||s*voicecloud.cn^
+||v*.gdt.qq.com^
+||p*-ad.adukwai.com^
+||ad.*toutiao.com^
+||vdn*.vzuu.com^
+||p*-ecom-qualification-sign.ecombdimg.com^
+||api-p*.yksdks.com^
+||p*-lm.adukwai.com^
+@@||mssdk3-normal-*.zijieapi.com^
+||p*-lm.adkwai.com^
+||p*-pro.a.yximgs.com^
 ||zazgiyoh*.world^
 ||zcchyr*.xyz^
 ||zabdybod*.club^
@@ -71,22 +87,6 @@
 ||zbc6hy*.live^
 ||gtlpa*.com^
 @@||cdn-msp*.18comic*.*^
-||p*-ff.adkwai.com^
-||video-*.pddpic.com^
-||pull-*-*.ixigua.com^
-||v*-default.ixigua.com^
-@@||imapi5-oth-*.zijieapi.com^
-||s*voicecloud.cn^
-||v*.gdt.qq.com^
-||p*-ad.adukwai.com^
-||ad.*toutiao.com^
-||vdn*.vzuu.com^
-||p*-ecom-qualification-sign.ecombdimg.com^
-||api-p*.yksdks.com^
-||p*-lm.adukwai.com^
-@@||mssdk3-normal-*.zijieapi.com^
-||p*-lm.adkwai.com^
-||p*-pro.a.yximgs.com^
 ||fbia.*.cn^
 ||sat29.so*koaq.com^
 ||bbcbbi.*.com^
@@ -153,6 +153,7 @@ t7z.cupid.iqiyi*
 ||data.anisearch.
 ||p*-ad-aweme.byteimg.com^
 @@||p*-faceu-img-sign.byteimg.com^
+||advertising.civitai.
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 @@||lf*-webcastcdn-tos.douyinstatic.com^
@@ -186,6 +187,7 @@ Banner468x60
 @@||v*.douyinvod.com^
 @@||img*.funshion.com^
 ||ifengad.*.ifeng.com^
+||advert*.livesportmedia.eu^
 @@||v*.kwaicdn.com^
 ||23.109.87.
 ||static*.365inews.com^
@@ -223,6 +225,7 @@ Banner468x60
 @@||cm-10-*.getui.com^
 ||bjsvp*.space^
 @@||n*-lf*-dy-ncdn-tos-sub.bytegecko.com^
+||rtb-*.anysex.com^
 @@||lf*material.searchpstatp.com^
 ||adx-*.dbankcloud.
 ||mediate-ios-*.hyprmx.com^
@@ -237,6 +240,7 @@ Banner468x60
 ||p*-webcast-sign.douyinpic.com^
 @@||p*-ecom-fe.byteimg.com^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
+||buzzer.xhamster*
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
 ||lf*-ad-union-sdk.pglstatp-toutiao.com^
@@ -257,6 +261,7 @@ Banner468x60
 ||aplsof2fd.*.com^
 ||jmdanjonproxy.*^
 ||d6294kcj^
+||wsall.qzxtsg.*^
 ||nvnvnvdidi5566.
 ||js568f.
 ||analytics.*^
@@ -264,6 +269,7 @@ Banner468x60
 ||avatar*.weishi.qq.com^
 ||ads*.cj.sina.com.cn^
 ||kps230^
+||dkff3v093x3pi.*^
 ||xyftidkux8i2ab.ddcu8sdjmnbhh.dafga*.com^
 ||104e400003-*.m.ctrmi.cn^
 ||yd11_13-site-02^
@@ -510,6 +516,7 @@ Banner468x60
 ||eum*.instana.io^
 ||report.*.gbqofs.io^
 ||fads*s.com^
+||tracking.geo.*.amazonaws.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||collector-*.protechts.net^
 ||attr-logs.*.amazonaws.com^
@@ -556,6 +563,7 @@ Banner468x60
 ||apple-*.le.com^
 ||imp-*.jampp.com^
 ||mobileanalytics.*.amazonaws.com^
+||tracking.*.miui.com^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
@@ -626,6 +634,7 @@ Banner468x60
 ||track-*.hungrypanda.co^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
+||telemetry.*.pvp.net^
 ||analytics-v*.eip.telegraph.co.uk^
 ||gbxreport-*.wf.com^
 ||ad.*.360.cn^
@@ -681,11 +690,9 @@ analytics-*.aasaam.com
 ||wa.gmx.
 ||s*.skencituer.com^
 ||underclick.
-||advertising.civitai.
 ||cnt.yeptube.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
-||tracking.*.miui.com^
 ||putrr*.com^
 ||alishop*.ru^
 ||pijama.*.elasticbeanstalk.com^
@@ -748,7 +755,6 @@ analytics-*.aasaam.com
 ||ad*.bilgin.pro^
 ||track.zalando.
 ||seller-log-collector.shopee.
-||advert*.livesportmedia.eu^
 ||px*.mediahills.ru^
 ||subnewss*.net^
 ||ulog.*.kwai-pro.com^
@@ -796,8 +802,6 @@ analytics-*.aasaam.com
 ||thegreatesthits.
 ||adserver1.
 ||ad*.mellesleg.hu^
-||telemetry.*.pvp.net^
-||rtb-*.anysex.com^
 ||sgtm.wimdu.
 ||countly-
 ||countly.
@@ -810,7 +814,6 @@ analytics-*.aasaam.com
 ||broredir*s.site^
 ||admulti.
 ||parkdomainreal*.site^
-||tracking.geo.*.amazonaws.com^
 ||popunder.
 ||livetracker.*.pangea-cms.com^
 ||stat.tiara.
@@ -819,7 +822,6 @@ analytics-*.aasaam.com
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
-||buzzer.xhamster*
 ||collector.xhamster*.
 ||fxhpaoxqyajvmdg.
 ||poptraf.
