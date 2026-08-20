@@ -1,4 +1,4 @@
-# Update time: 2026-08-19 20:39:58
+# Update time: 2026-08-20 09:03:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -97,6 +97,7 @@
 ||dciclc.*.top^
 ||0c4d3f6.*.com^
 ||thu15.*.com^
+||xiaoqiang^
 ||p*.douyinpic.com^
 t7z.cupid.iqiyi*
 ||api*qm*com^
@@ -106,23 +107,21 @@ t7z.cupid.iqiyi*
 ||api*dutils.com^
 ||uu.163*
 ||mobads*baidu.com
-||xiaoqiang^
 ||creative*.bidease.com^
 ||fanpingbi*.gaokao.com^
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
 ||dn*.ixinwei.com^
 ||api16-access-ttp*.tiktokpangle-b.us^
 @@||p*-piu.byteimg.com^
-||counter*.stat.ovh^
 @@||lf*-dy-cdn-tos.bytegecko.com^
 @@||p*-img.searchpstatp.com^
 @@||p*-passport.byteacctimg.com^
 ||ad*.on.cc^
 @@||lf*-baike.searchpstatp.com^
-||ads.livetv*.me^
 ||allsportsflix.
 @@||p*-novel.byteimg.com^
 ||v*-ad.video.yximgs.com^
+||prebid-*.rubiconproject.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||ysdm*.ys137.com.cn^
 @@||lf*-static.bytednsdoc.com^
@@ -137,6 +136,7 @@ t7z.cupid.iqiyi*
 ||data.anisearch.
 ||p*-ad-aweme.byteimg.com^
 @@||p*-faceu-img-sign.byteimg.com^
+||advertising.civitai.
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 @@||lf*-webcastcdn-tos.douyinstatic.com^
@@ -170,6 +170,7 @@ Banner468x60
 @@||v*.douyinvod.com^
 @@||img*.funshion.com^
 ||ifengad.*.ifeng.com^
+||advert*.livesportmedia.eu^
 @@||v*.kwaicdn.com^
 ||23.109.87.
 ||static*.365inews.com^
@@ -186,7 +187,6 @@ Banner468x60
 ||banner.*.tccapis.com^
 ||cdn-adn-*.rayjump.com^
 @@||p*-sdbk2-media.byteimg.com^
-||reachableads-av.*.amazonaws.com^
 ||sf*-fe-tos.pglstatp-toutiao.com^
 ||bdcpro*.techweb.com.cn^
 ||adx-*.op.dbankcloud.com.edgekey.net^
@@ -194,7 +194,6 @@ Banner468x60
 @@||ma*-normal-lf.zijieapi.com^
 ||ad*.zonaplus.tv^
 ||production-adserver-*.amazonaws.com^
-||ad-host-backup-*.aliyuncs.com^
 ||iad-*.appboy.com^
 ||jtbo*.nqxvevk.cn^
 ||bdlm*.hc360.com^
@@ -207,6 +206,7 @@ Banner468x60
 @@||cm-10-*.getui.com^
 ||bjsvp*.space^
 @@||n*-lf*-dy-ncdn-tos-sub.bytegecko.com^
+||rtb-*.anysex.com^
 @@||lf*material.searchpstatp.com^
 ||adx-*.dbankcloud.
 ||mediate-ios-*.hyprmx.com^
@@ -221,9 +221,27 @@ Banner468x60
 ||p*-webcast-sign.douyinpic.com^
 @@||p*-ecom-fe.byteimg.com^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
+||buzzer.xhamster*
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
 ||lf*-ad-union-sdk.pglstatp-toutiao.com^
+||dnsrr9.wym*.com^
+||dnsa*f.*zzy.com^
+||dns*po.lzn376.com^
+||log*-misc-lf.amemv.com^
+||beacons*.gvt3.com^
+||fp-it*.fengkongcloud.com^
+||tnc*.zijieapi.com^
+||dnszcp.zzg*.com^
+||report.*.qq.com^
+||dnsxyc.wym*.com^
+||click*forhz.adsmogo.com^
+||dns*.londrimarketing.com.br^
+||log*.aliyuncs.com^
+||dnsnio.*.com^
+||dns-*.eastus.cloudapp.azure.com^
+||dns.weixin.qq.com*^
+||httpdns.*.yy.com^
 ||fake-domain^
 ||gao1asdjws^
 ||tnc*-aliec*.zijieapi.com^
@@ -313,23 +331,6 @@ Banner468x60
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||107.167.22.*.gif
-||dnsrr9.wym*.com^
-||dnsa*f.*zzy.com^
-||dns*po.lzn376.com^
-||log*-misc-lf.amemv.com^
-||beacons*.gvt3.com^
-||fp-it*.fengkongcloud.com^
-||tnc*.zijieapi.com^
-||dnszcp.zzg*.com^
-||report.*.qq.com^
-||dnsxyc.wym*.com^
-||click*forhz.adsmogo.com^
-||dns*.londrimarketing.com.br^
-||log*.aliyuncs.com^
-||dnsnio.*.com^
-||dns-*.eastus.cloudapp.azure.com^
-||dns.weixin.qq.com*^
-||httpdns.*.yy.com^
 ||m7k4.com*.php?
 ||minero-proxy-*now.sh
 ||ad*.aginomoto.com
@@ -403,7 +404,6 @@ Banner468x60
 ||orderana*.spankbang.com^
 ||mcs-normal-*.capcutapi.com^
 ||trace-*.free-reels.com^
-||collector-*.pxchk.net^
 ||host*.carl-ras.dk^
 ||ads*.dfiles.ru^
 ||log*-normal-*.tiktokv.us^
@@ -497,7 +497,6 @@ Banner468x60
 ||discovery-ios-*.ertelecom.ru^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
-||collector-*.tvsquared.com^
 ||mcs.*.tiktok.com^
 ||log-*.previewnetworks.com^
 ||counter*-yadro*-ru.unblocked.lol^
@@ -522,7 +521,6 @@ Banner468x60
 ||analytics.*.sky.com^
 ||servo-report.keepstreams.*^
 ||pangolin-sdk-toutiao*.com^
-||clickhouse-collector.*.prod.plat.agency^
 ||collector-*.luigisbox.com^
 ||logreport-global-dual.cool*cloud.com^
 ||clog*.yuanfudao.com^
@@ -583,7 +581,6 @@ Banner468x60
 ||fra-*.braze.eu^
 ||mssdk*.capcutapi.com^
 ||t*.zcvh.net^
-||cdn-*.gravityfield.ai^
 ||log*-misc-lq.amemv.com^
 ||log*.vietnamplus.vn^
 ||hn-ping*.hashnode.com^
@@ -621,7 +618,6 @@ Banner468x60
 ||hba*.hepsiburada.com^
 ||qn-*pcdn.cdn.msstatic.com^
 ||mon-va*.capcutapi.com^
-||collect-v*.51.la^
 ||logger-*.dailymotion.com^
 ||ping*.bidease.com^
 ||analytics*.carambo.la^
@@ -640,8 +636,8 @@ Banner468x60
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
 ||analytics*.prezly.com^
-||collector*.ex.co^
 ||adserver*.euroweeklynews.com^
+||clickhouse-collector.*.prod.plat.agency^
 analytics-*.aasaam.com
 ||an.yandex.
 ||gtmdev.jabra.
@@ -653,13 +649,15 @@ analytics-*.aasaam.com
 ||adservice.google.
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
+||counter*.stat.ovh^
+||collector-*.pxchk.net^
 |load.sst.
+||ads.livetv*.me^
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||bondzgi*.
 ||etargetnet.*.hu^
 ||ulog-*.ksapisrv.com^
-||prebid-*.rubiconproject.com^
 ||rum*.cdnvideo.ru^
 ||sgtm.fashionunited.
 ||log*-normal-*.tiktokv.com
@@ -685,7 +683,6 @@ analytics-*.aasaam.com
 ||wa.gmx.
 ||s*.skencituer.com^
 ||underclick.
-||advertising.civitai.
 ||cnt.yeptube.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
@@ -744,6 +741,7 @@ analytics-*.aasaam.com
 ||tracking-v*.a.run.app^
 ||collector.hamsterix.
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
+||cdn-*.gravityfield.ai^
 ||matomo-demo-*.amazonaws.com^
 ||me9ddf.moebelix.
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
@@ -752,7 +750,6 @@ analytics-*.aasaam.com
 ||ad*.bilgin.pro^
 ||track.zalando.
 ||seller-log-collector.shopee.
-||advert*.livesportmedia.eu^
 ||px*.mediahills.ru^
 ||subnewss*.net^
 ||ulog.*.kwai-pro.com^
@@ -780,15 +777,18 @@ analytics-*.aasaam.com
 ||pixel.archive.
 ||track.tiara.
 ||orbit*.lun.ua^
+||reachableads-av.*.amazonaws.com^
 ||popupclick.
 ||ad*.gyaloglo.hu^
 ||ad*.thisisgame.com^
 ||adverticum.*.hu^
 |load.sgtm.
 ||dw-informer-*.newsru.com^
+||collect-v*.51.la^
 |piwik.
 ||q*-publick.club^
 ||letssex.
+||ad-host-backup-*.aliyuncs.com^
 ||minitds-*.info^
 ||cl*.k5a.io^
 ||polaris*-normal-*.zijieapi.com^
@@ -798,9 +798,9 @@ analytics-*.aasaam.com
 ||s*.adduplex.com^
 ||snowplow-collector-*.amazonaws.com^
 ||thegreatesthits.
+||collector-*.tvsquared.com^
 ||adserver1.
 ||ad*.mellesleg.hu^
-||rtb-*.anysex.com^
 ||sgtm.wimdu.
 ||countly-
 ||countly.
@@ -821,9 +821,9 @@ analytics-*.aasaam.com
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
-||buzzer.xhamster*
 ||collector.xhamster*.
 ||fxhpaoxqyajvmdg.
+||collector*.ex.co^
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
