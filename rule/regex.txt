@@ -1,4 +1,4 @@
-# Update time: 2026-09-04 23:44:03
+# Update time: 2026-09-05 10:53:08
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,67 +47,22 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
-||p*.adkwai.com^
-||sf*-fe-tos.pglstatp-toutiao.com^
-||log*-applog-lq.fqnovel.com^
 ||p*-ff.adkwai.com^
-||tnc0-*.zijieapi.com^
-||download*.vzuu.com^
-||ads*-normal-lf.zijieapi.com^
-||ads*-normal-lq.zijieapi.com^
-||sf*-be-pack.pglstatp-toutiao.com^
-||api-access.pangolin-sdk-toutiao-*.com^
-||az*-upload-js.gifshow.com^
-||ads*.papegames.com^
-||p*-ad.adukwai.com^
-||p*-be-pack-sign.pglstatp-toutiao.com^
-||ads*-normal.zijieapi.com^
-||lf-leads-fe-scm.bytecdn.com.*.queniubg.com^
-||ads-*.xhscdn.com^
-||p*-lm.adukwai.com^
-||az*-upload.ksapisrv.com^
-||pagead*.googlesyndication-cn.com^
-||p*-lm.adkwai.com^
-||polaris*-normal-lq.zijieapi.com^
-||rtlog*-applog-lq.fqnovel.com^
-||pagead*.googleadservices-cn.com^
-||v*.gdt.qq.com^
-||ad.*toutiao.com^
-||vdn*.vzuu.com^
-||p*-ecom-qualification-sign.ecombdimg.com^
 ||video-*.pddpic.com^
-||api-p*.yksdks.com^
 ||pull-*-*.ixigua.com^
 ||v*-default.ixigua.com^
 @@||imapi5-oth-*.zijieapi.com^
-@@||mssdk3-normal-*.zijieapi.com^
 ||s*voicecloud.cn^
+||v*.gdt.qq.com^
+||p*-ad.adukwai.com^
+||ad.*toutiao.com^
+||vdn*.vzuu.com^
+||p*-ecom-qualification-sign.ecombdimg.com^
+||api-p*.yksdks.com^
+||p*-lm.adukwai.com^
+@@||mssdk3-normal-*.zijieapi.com^
+||p*-lm.adkwai.com^
 ||p*-pro.a.yximgs.com^
-||zcchyr*.xyz^
-||js.*2023*.live^
-||zaqlovh*.xyz^
-||zazgiyoh*.xyz^
-||zcchyw*.xyz^
-||molpmh.xyz|
-||sd.yhzzzs*.com^
-||bjkedv*.xyz^
-||p26.gejulm*.com^
-||gtlpa*.com^
-||at*.doubanio.com^
-||zazgiyoh*.world^
-||zabdybod*.club^
-||yhsfsdv*.com^
-||thezbpe5*.xyz^
-||zazgbqg*.xyz^
-||js.*2023*.xyz^
-@@||cdn-msp*.18comic.*^
-||zbc6hye*.xyz^
-||opnked*.xyz^
-||www.xxmh*.com^
-||163487*.qmgmw.com^
-||zahrvfbd*.xyz^
-||zbc6hy*.live^
-@@||cdn-msp*.18comic*.*^
 ||fbia.*.cn^
 ||sat29.so*koaq.com^
 ||bbcbbi.*.com^
@@ -118,6 +73,30 @@
 ||dciclc.*.top^
 ||0c4d3f6.*.com^
 ||thu15.*.com^
+||zazgiyoh*.world^
+||zcchyr*.xyz^
+||zabdybod*.club^
+||js.*2023*.live^
+||yhsfsdv*.com^
+||thezbpe5*.xyz^
+||zaqlovh*.xyz^
+||zazgiyoh*.xyz^
+||zcchyw*.xyz^
+||zazgbqg*.xyz^
+||molpmh.xyz|
+||js.*2023*.xyz^
+||sd.yhzzzs*.com^
+@@||cdn-msp*.18comic.*^
+||zbc6hye*.xyz^
+||opnked*.xyz^
+||www.xxmh*.com^
+||163487*.qmgmw.com^
+||bjkedv*.xyz^
+||p26.gejulm*.com^
+||zahrvfbd*.xyz^
+||zbc6hy*.live^
+||gtlpa*.com^
+@@||cdn-msp*.18comic*.*^
 ||p*.douyinpic.com^
 t7z.cupid.iqiyi*
 ||api*qm*com^
@@ -151,16 +130,15 @@ t7z.cupid.iqiyi*
 ||dn*.ixinwei.com^
 ||api16-access-ttp*.tiktokpangle-b.us^
 @@||p*-piu.byteimg.com^
-||counter*.stat.ovh^
 @@||lf*-dy-cdn-tos.bytegecko.com^
 @@||p*-img.searchpstatp.com^
 @@||p*-passport.byteacctimg.com^
 ||ad*.on.cc^
 @@||lf*-baike.searchpstatp.com^
-||ads.livetv*.me^
 ||allsportsflix.
 @@||p*-novel.byteimg.com^
 ||v*-ad.video.yximgs.com^
+||prebid-*.rubiconproject.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||ysdm*.ys137.com.cn^
 @@||lf*-static.bytednsdoc.com^
@@ -175,6 +153,7 @@ t7z.cupid.iqiyi*
 ||data.anisearch.
 ||p*-ad-aweme.byteimg.com^
 @@||p*-faceu-img-sign.byteimg.com^
+||advertising.civitai.
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 @@||lf*-webcastcdn-tos.douyinstatic.com^
@@ -185,7 +164,6 @@ t7z.cupid.iqiyi*
 ||ads*-normal-*.zijieapi.com^
 ||stw.zone-telechargement.
 ||api*.bidmachine.io^
-||a*.chajiaotong.com^
 ||adserver.*.yahoodns.net^
 ||fpb*.51edu.com^
 @@||lf*-infras.bytetos.com^
@@ -208,6 +186,7 @@ Banner468x60
 @@||v*.douyinvod.com^
 @@||img*.funshion.com^
 ||ifengad.*.ifeng.com^
+||advert*.livesportmedia.eu^
 @@||v*.kwaicdn.com^
 ||23.109.87.
 ||static*.365inews.com^
@@ -224,14 +203,13 @@ Banner468x60
 ||banner.*.tccapis.com^
 ||cdn-adn-*.rayjump.com^
 @@||p*-sdbk2-media.byteimg.com^
-||reachableads-av.*.amazonaws.com^
+||sf*-fe-tos.pglstatp-toutiao.com^
 ||bdcpro*.techweb.com.cn^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||uc*.atobo.com^
 @@||ma*-normal-lf.zijieapi.com^
 ||ad*.zonaplus.tv^
 ||production-adserver-*.amazonaws.com^
-||ad-host-backup-*.aliyuncs.com^
 ||iad-*.appboy.com^
 ||jtbo*.nqxvevk.cn^
 ||bdlm*.hc360.com^
@@ -244,11 +222,13 @@ Banner468x60
 @@||cm-10-*.getui.com^
 ||bjsvp*.space^
 @@||n*-lf*-dy-ncdn-tos-sub.bytegecko.com^
+||rtb-*.anysex.com^
 @@||lf*material.searchpstatp.com^
 ||adx-*.dbankcloud.
 ||mediate-ios-*.hyprmx.com^
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 @@||p*-ecop-imagex.byteimg.com^
+||ads*-normal-lq.zijieapi.com^
 ||tnc16-*.byteoversea.com^
 ||gcw*.2liang.cn^
 @@||lf*-webcast-cdn-tos.bytegecko.com^
@@ -257,6 +237,7 @@ Banner468x60
 ||p*-webcast-sign.douyinpic.com^
 @@||p*-ecom-fe.byteimg.com^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
+||buzzer.xhamster*
 ||zbb.bbb.*.pics^
 ||union*.365inews.com^
 ||lf*-ad-union-sdk.pglstatp-toutiao.com^
@@ -401,6 +382,7 @@ Banner468x60
 ||xn--wxtr9fwyxk9c.*^
 ||d*.xinshipu.com^
 ||p*-ad-sign.byteimg.com^
+||at*.doubanio.com^
 ||dm*.yxlady.com^
 ||same*.stockstar.com^
 ||gg*.miguvideo.com^
@@ -480,6 +462,8 @@ Banner468x60
 ||mon*-misc.fqnovel.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
+||ecommerce-events*.adscale.com^
+||tracking-v*.a.run.app^
 ||stats*.credit-cooperatif.coop^
 ||tracking*.euroads.fi^
 ||ulog*.*^
@@ -580,7 +564,9 @@ Banner468x60
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
+||a*.chajiaotong.com^
 ||gads*s.com^
+||trk*.vidible.tv^
 ||gscounters.*.gigya.com^
 ||fads*z.com^
 ||prod.*.publishers.advertising.a2z.com^
@@ -671,13 +657,14 @@ analytics-*.aasaam.com
 ||adservice.google.
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
+||counter*.stat.ovh^
 |load.sst.
+||ads.livetv*.me^
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||bondzgi*.
 ||etargetnet.*.hu^
 ||ulog-*.ksapisrv.com^
-||prebid-*.rubiconproject.com^
 ||rum*.cdnvideo.ru^
 ||sgtm.fashionunited.
 ||log*-normal-*.tiktokv.com
@@ -703,7 +690,6 @@ analytics-*.aasaam.com
 ||wa.gmx.
 ||s*.skencituer.com^
 ||underclick.
-||advertising.civitai.
 ||cnt.yeptube.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
@@ -719,7 +705,6 @@ analytics-*.aasaam.com
 ||suite*.linximpulse.net^
 ||cnt.nuvid.
 ||servo-report.dvdfab.
-||trk*.vidible.tv^
 ||pop-under.
 ||sock*-goguardian.pusher.com^
 ||basvformu*.xyz^
@@ -757,9 +742,7 @@ analytics-*.aasaam.com
 ||logs*.smithsonian.museum^
 ||ulog*.kwai-pro.com^
 ||bar*.shinobi.jp^
-||ecommerce-events*.adscale.com^
 ||counter*.freecounter.ovh^
-||tracking-v*.a.run.app^
 ||collector.hamsterix.
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
 ||matomo-demo-*.amazonaws.com^
@@ -770,7 +753,6 @@ analytics-*.aasaam.com
 ||ad*.bilgin.pro^
 ||track.zalando.
 ||seller-log-collector.shopee.
-||advert*.livesportmedia.eu^
 ||px*.mediahills.ru^
 ||subnewss*.net^
 ||ulog.*.kwai-pro.com^
@@ -798,6 +780,7 @@ analytics-*.aasaam.com
 ||pixel.archive.
 ||track.tiara.
 ||orbit*.lun.ua^
+||reachableads-av.*.amazonaws.com^
 ||popupclick.
 ||ad*.gyaloglo.hu^
 ||ad*.thisisgame.com^
@@ -807,6 +790,7 @@ analytics-*.aasaam.com
 |piwik.
 ||q*-publick.club^
 ||letssex.
+||ad-host-backup-*.aliyuncs.com^
 ||minitds-*.info^
 ||cl*.k5a.io^
 ||polaris*-normal-*.zijieapi.com^
@@ -818,7 +802,6 @@ analytics-*.aasaam.com
 ||thegreatesthits.
 ||adserver1.
 ||ad*.mellesleg.hu^
-||rtb-*.anysex.com^
 ||sgtm.wimdu.
 ||countly-
 ||countly.
@@ -839,7 +822,6 @@ analytics-*.aasaam.com
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
-||buzzer.xhamster*
 ||collector.xhamster*.
 ||fxhpaoxqyajvmdg.
 ||poptraf.
