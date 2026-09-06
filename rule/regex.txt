@@ -1,4 +1,4 @@
-# Update time: 2026-09-05 22:33:11
+# Update time: 2026-09-06 10:51:41
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,21 +47,41 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||p*.adkwai.com^
+||sf*-fe-tos.pglstatp-toutiao.com^
+||log*-applog-lq.fqnovel.com^
 ||p*-ff.adkwai.com^
-||video-*.pddpic.com^
-||pull-*-*.ixigua.com^
-||v*-default.ixigua.com^
-@@||imapi5-oth-*.zijieapi.com^
-||s*voicecloud.cn^
-||v*.gdt.qq.com^
+||tnc0-*.zijieapi.com^
+||download*.vzuu.com^
+||ads*-normal-lf.zijieapi.com^
+||ads*-normal-lq.zijieapi.com^
+||sf*-be-pack.pglstatp-toutiao.com^
+||api-access.pangolin-sdk-toutiao-*.com^
+||az*-upload-js.gifshow.com^
+||ads*.papegames.com^
 ||p*-ad.adukwai.com^
+||p*-be-pack-sign.pglstatp-toutiao.com^
+||ads*-normal.zijieapi.com^
+||lf-leads-fe-scm.bytecdn.com.*.queniubg.com^
+||ads-*.xhscdn.com^
+||p*-lm.adukwai.com^
+||az*-upload.ksapisrv.com^
+||pagead*.googlesyndication-cn.com^
+||p*-lm.adkwai.com^
+||polaris*-normal-lq.zijieapi.com^
+||rtlog*-applog-lq.fqnovel.com^
+||pagead*.googleadservices-cn.com^
+||v*.gdt.qq.com^
 ||ad.*toutiao.com^
 ||vdn*.vzuu.com^
 ||p*-ecom-qualification-sign.ecombdimg.com^
+||video-*.pddpic.com^
 ||api-p*.yksdks.com^
-||p*-lm.adukwai.com^
+||pull-*-*.ixigua.com^
+||v*-default.ixigua.com^
+@@||imapi5-oth-*.zijieapi.com^
 @@||mssdk3-normal-*.zijieapi.com^
-||p*-lm.adkwai.com^
+||s*voicecloud.cn^
 ||p*-pro.a.yximgs.com^
 ||zazgiyoh*.world^
 ||zcchyr*.xyz^
@@ -97,6 +117,7 @@
 ||dciclc.*.top^
 ||0c4d3f6.*.com^
 ||thu15.*.com^
+||xiaoqiang^
 ||p*.douyinpic.com^
 t7z.cupid.iqiyi*
 ||api*qm*com^
@@ -123,7 +144,6 @@ t7z.cupid.iqiyi*
 ||dns-*.eastus.cloudapp.azure.com^
 ||dns.weixin.qq.com*^
 ||httpdns.*.yy.com^
-||xiaoqiang^
 ||creative*.bidease.com^
 ||fanpingbi*.gaokao.com^
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
@@ -166,6 +186,7 @@ t7z.cupid.iqiyi*
 ||ads*-normal-*.zijieapi.com^
 ||stw.zone-telechargement.
 ||api*.bidmachine.io^
+||a*.chajiaotong.com^
 ||adserver.*.yahoodns.net^
 ||fpb*.51edu.com^
 @@||lf*-infras.bytetos.com^
@@ -206,7 +227,6 @@ Banner468x60
 ||cdn-adn-*.rayjump.com^
 @@||p*-sdbk2-media.byteimg.com^
 ||reachableads-av.*.amazonaws.com^
-||sf*-fe-tos.pglstatp-toutiao.com^
 ||bdcpro*.techweb.com.cn^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||uc*.atobo.com^
@@ -232,7 +252,6 @@ Banner468x60
 ||mediate-ios-*.hyprmx.com^
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 @@||p*-ecop-imagex.byteimg.com^
-||ads*-normal-lq.zijieapi.com^
 ||tnc16-*.byteoversea.com^
 ||gcw*.2liang.cn^
 @@||lf*-webcast-cdn-tos.bytegecko.com^
@@ -466,8 +485,6 @@ Banner468x60
 ||mon*-misc.fqnovel.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
-||ecommerce-events*.adscale.com^
-||tracking-v*.a.run.app^
 ||stats*.credit-cooperatif.coop^
 ||tracking*.euroads.fi^
 ||ulog*.*^
@@ -568,9 +585,7 @@ Banner468x60
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
-||a*.chajiaotong.com^
 ||gads*s.com^
-||trk*.vidible.tv^
 ||gscounters.*.gigya.com^
 ||fads*z.com^
 ||prod.*.publishers.advertising.a2z.com^
@@ -707,6 +722,7 @@ analytics-*.aasaam.com
 ||suite*.linximpulse.net^
 ||cnt.nuvid.
 ||servo-report.dvdfab.
+||trk*.vidible.tv^
 ||pop-under.
 ||sock*-goguardian.pusher.com^
 ||basvformu*.xyz^
@@ -744,7 +760,9 @@ analytics-*.aasaam.com
 ||logs*.smithsonian.museum^
 ||ulog*.kwai-pro.com^
 ||bar*.shinobi.jp^
+||ecommerce-events*.adscale.com^
 ||counter*.freecounter.ovh^
+||tracking-v*.a.run.app^
 ||collector.hamsterix.
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
 ||matomo-demo-*.amazonaws.com^
