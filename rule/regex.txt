@@ -1,4 +1,4 @@
-# Update time: 2026-09-10 11:00:58
+# Update time: 2026-09-10 23:48:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -71,6 +71,18 @@
 ||polaris*-normal-lq.zijieapi.com^
 ||rtlog*-applog-lq.fqnovel.com^
 ||pagead*.googleadservices-cn.com^
+||v*.gdt.qq.com^
+||ad.*toutiao.com^
+||vdn*.vzuu.com^
+||p*-ecom-qualification-sign.ecombdimg.com^
+||video-*.pddpic.com^
+||api-p*.yksdks.com^
+||pull-*-*.ixigua.com^
+||v*-default.ixigua.com^
+@@||imapi5-oth-*.zijieapi.com^
+@@||mssdk3-normal-*.zijieapi.com^
+||s*voicecloud.cn^
+||p*-pro.a.yximgs.com^
 ||zazgiyoh*.world^
 ||zcchyr*.xyz^
 ||zabdybod*.club^
@@ -95,18 +107,6 @@
 ||zbc6hy*.live^
 ||gtlpa*.com^
 @@||cdn-msp*.18comic*.*^
-||v*.gdt.qq.com^
-||ad.*toutiao.com^
-||vdn*.vzuu.com^
-||p*-ecom-qualification-sign.ecombdimg.com^
-||video-*.pddpic.com^
-||api-p*.yksdks.com^
-||pull-*-*.ixigua.com^
-||v*-default.ixigua.com^
-@@||imapi5-oth-*.zijieapi.com^
-@@||mssdk3-normal-*.zijieapi.com^
-||s*voicecloud.cn^
-||p*-pro.a.yximgs.com^
 ||fbia.*.cn^
 ||sat29.so*koaq.com^
 ||bbcbbi.*.com^
@@ -117,7 +117,6 @@
 ||dciclc.*.top^
 ||0c4d3f6.*.com^
 ||thu15.*.com^
-||xiaoqiang^
 ||p*.douyinpic.com^
 t7z.cupid.iqiyi*
 ||api*qm*com^
@@ -144,6 +143,7 @@ t7z.cupid.iqiyi*
 ||dns-*.eastus.cloudapp.azure.com^
 ||dns.weixin.qq.com*^
 ||httpdns.*.yy.com^
+||xiaoqiang^
 ||creative*.bidease.com^
 ||fanpingbi*.gaokao.com^
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
@@ -485,6 +485,7 @@ Banner468x60
 ||mon*-misc.fqnovel.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
+||tracking-v*.a.run.app^
 ||stats*.credit-cooperatif.coop^
 ||tracking*.euroads.fi^
 ||ulog*.*^
@@ -763,7 +764,6 @@ analytics-*.aasaam.com
 ||bar*.shinobi.jp^
 ||ecommerce-events*.adscale.com^
 ||counter*.freecounter.ovh^
-||tracking-v*.a.run.app^
 ||collector.hamsterix.
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
 ||matomo-demo-*.amazonaws.com^
