@@ -1,4 +1,4 @@
-# Update time: 2026-09-11 10:56:14
+# Update time: 2026-09-11 23:50:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,22 +47,6 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
-||p*-ff.adkwai.com^
-||video-*.pddpic.com^
-||pull-*-*.ixigua.com^
-||v*-default.ixigua.com^
-@@||imapi5-oth-*.zijieapi.com^
-||s*voicecloud.cn^
-||v*.gdt.qq.com^
-||p*-ad.adukwai.com^
-||ad.*toutiao.com^
-||vdn*.vzuu.com^
-||p*-ecom-qualification-sign.ecombdimg.com^
-||api-p*.yksdks.com^
-||p*-lm.adukwai.com^
-@@||mssdk3-normal-*.zijieapi.com^
-||p*-lm.adkwai.com^
-||p*-pro.a.yximgs.com^
 ||zazgiyoh*.world^
 ||zcchyr*.xyz^
 ||zabdybod*.club^
@@ -87,6 +71,22 @@
 ||zbc6hy*.live^
 ||gtlpa*.com^
 @@||cdn-msp*.18comic*.*^
+||p*-ff.adkwai.com^
+||video-*.pddpic.com^
+||pull-*-*.ixigua.com^
+||v*-default.ixigua.com^
+@@||imapi5-oth-*.zijieapi.com^
+||s*voicecloud.cn^
+||v*.gdt.qq.com^
+||p*-ad.adukwai.com^
+||ad.*toutiao.com^
+||vdn*.vzuu.com^
+||p*-ecom-qualification-sign.ecombdimg.com^
+||api-p*.yksdks.com^
+||p*-lm.adukwai.com^
+@@||mssdk3-normal-*.zijieapi.com^
+||p*-lm.adkwai.com^
+||p*-pro.a.yximgs.com^
 ||fbia.*.cn^
 ||sat29.so*koaq.com^
 ||bbcbbi.*.com^
@@ -106,6 +106,7 @@ t7z.cupid.iqiyi*
 ||api*dutils.com^
 ||uu.163*
 ||mobads*baidu.com
+||xiaoqiang^
 ||dnsrr9.wym*.com^
 ||dnsa*f.*zzy.com^
 ||dns*po.lzn376.com^
@@ -123,7 +124,6 @@ t7z.cupid.iqiyi*
 ||dns-*.eastus.cloudapp.azure.com^
 ||dns.weixin.qq.com*^
 ||httpdns.*.yy.com^
-||xiaoqiang^
 ||creative*.bidease.com^
 ||fanpingbi*.gaokao.com^
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
@@ -166,6 +166,7 @@ t7z.cupid.iqiyi*
 ||ads*-normal-*.zijieapi.com^
 ||stw.zone-telechargement.
 ||api*.bidmachine.io^
+||a*.chajiaotong.com^
 ||adserver.*.yahoodns.net^
 ||fpb*.51edu.com^
 @@||lf*-infras.bytetos.com^
@@ -240,6 +241,7 @@ Banner468x60
 ||fpb1.chinacar.
 ||p*-webcast-sign.douyinpic.com^
 @@||p*-ecom-fe.byteimg.com^
+||umami-*.sufrah.net^
 @@||lf*-webcast-cdn-tos-ncdn.bytegecko.com^
 ||buzzer.xhamster*
 ||zbb.bbb.*.pics^
@@ -562,10 +564,10 @@ Banner468x60
 ||apple-*.le.com^
 ||imp-*.jampp.com^
 ||mobileanalytics.*.amazonaws.com^
+||tracking.*.miui.com^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
-||a*.chajiaotong.com^
 ||gads*s.com^
 ||gscounters.*.gigya.com^
 ||fads*z.com^
@@ -691,7 +693,6 @@ analytics-*.aasaam.com
 ||cnt.yeptube.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
-||tracking.*.miui.com^
 ||putrr*.com^
 ||alishop*.ru^
 ||pijama.*.elasticbeanstalk.com^
