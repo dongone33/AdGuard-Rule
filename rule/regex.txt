@@ -1,5 +1,5 @@
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - regex.txt
-# Update time: 2026-09-18 10:53:04
+# Update time: 2026-09-18 12:32:27
 # Expires: 12 hours
 # Repo URL:: https://github.com/hululu1068/AdGuard-Rule
 
@@ -20,6 +20,7 @@
 # - 'https://raw.githubusercontent.com/TTDNS/Cat/refs/heads/main/DNS.TXT'
 # - 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt'
 # - 'https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt'
+# - 'https://raw.githubusercontent.com/Kuner-mw/DNS-Kuner/main/FilterRules/blacklist.txt'
 # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt'
 # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt'
 # - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt'
@@ -28,6 +29,7 @@
 # - 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt'
 # - 'https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/DD-AD.txt'
 # - 'https://raw.githubusercontent.com/qq5460168/666/master/allow.txt'
+# - 'https://raw.githubusercontent.com/Kuner-mw/DNS-Kuner/main/FilterRules/allowlist.txt'
 # - 'mylist.txt'
 ###############################################################################################
 
