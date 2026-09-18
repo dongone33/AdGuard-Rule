@@ -41,6 +41,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>dnsjava</groupId>
+            <artifactId>dnsjava</artifactId>
+            <version>3.6.4</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
