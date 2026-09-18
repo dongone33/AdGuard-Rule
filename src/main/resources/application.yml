@@ -71,3 +71,13 @@ application:
         - MODIFY
       allow.txt:                            #单独输出的白名单/放行规则（@@||domain^）
         - DNS_EXCEPTION
+
+  dns-validate:
+    enabled: true            # 是否启用"用 SmartDNS 校验域名连通性并剔除失效域名"
+    server: 127.0.0.1        # SmartDNS 监听地址
+    port: 5053                # SmartDNS 监听端口，需和 smartdns.conf 中 bind 端口一致
+    timeout-ms: 3000          # 单次查询超时（毫秒）
+    retry: 2                  # 单个域名最多重试次数
+    concurrency: 200          # 并发查询线程数，根据 CI/服务器性能调整
+    health-check-attempts: 10 # 校验开始前的健康检查最大尝试次数
+    health-check-interval-ms: 3000 # 健康检查重试间隔
