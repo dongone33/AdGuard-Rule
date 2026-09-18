@@ -30,7 +30,7 @@ application:
       - 'https://raw.githubusercontent.com/TTDNS/Cat/refs/heads/main/DNS.TXT' #name: TTDNS
       - 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt' #name: 茯苓广告规则
       - 'https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt' #name: HG
-      - 'https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt' #name: lingeringsound adblock_auto
+      #- 'https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt' #name: lingeringsound adblock_auto
 
     #隐私保护
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt' #name: HaGeZi's Apple Tracker Blocklist
