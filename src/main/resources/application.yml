@@ -31,7 +31,7 @@ application:
       - 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt' #name: 茯苓广告规则
       - 'https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt' #name: HG
       - 'https://raw.githubusercontent.com/Kuner-mw/DNS-Kuner/main/FilterRules/blacklist.txt' #name: DNS-Kuner拦截列表
-      - 'https://github.com/Potterli20/file/releases/download/ad-hosts-pro/ad-adguardhome.txt' #name: 冷漠规则
+      #- 'https://github.com/Potterli20/file/releases/download/ad-hosts-pro/ad-adguardhome.txt' #name: 冷漠规则 规则过大暂不使用
 
     #隐私保护
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt' #name: HaGeZi's Apple Tracker Blocklist
