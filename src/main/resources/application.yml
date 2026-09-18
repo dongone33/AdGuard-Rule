@@ -49,17 +49,17 @@ application:
       - 'mylist.txt'
       
   output:
-    path: rule   #规则文件输出路径，相对路径默认从 项目目录开始
+    path: rule                              #规则文件输出路径，相对路径默认从 项目目录开始
     files:
-      all.txt:    #输出文件名
-        - DNS_EXCEPTION #AdGuard Home例外规则
-        - DNS_FILTER #规范域名拦截规则
-        - HOSTS   #Hosts规则
-        - REGEX   #严格正则规则，AdGH支持
-        - MODIFY  #AdGuard客户端专用规则
+      all.txt:                              #输出文件名
+        - DNS_EXCEPTION                     #AdGuard Home例外规则
+        - DNS_FILTER                        #规范域名拦截规则
+        - HOSTS                             #Hosts规则
+        - REGEX                             #严格正则规则，AdGH支持
+        - MODIFY                            #AdGuard客户端专用规则
       adgh.txt:
-        - DNS_FILTER #规范域名拦截规则
-        - REGEX      #严格正则规则，AdGH支持
+        - DNS_FILTER 
+        - REGEX      
       hosts.txt:
         - HOSTS
       regex.txt:
@@ -69,5 +69,5 @@ application:
         - DNS_FILTER
       modify.txt:
         - MODIFY
-      Dnsallow.txt:              #新增：单独输出的白名单/放行规则（@@||domain^）
+      allow.txt:                            #单独输出的白名单/放行规则（@@||domain^）
         - DNS_EXCEPTION
