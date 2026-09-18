@@ -37,6 +37,26 @@ jobs:
       - name: Build with Maven
         run: mvn -B package
 
+      - name: Setup SmartDNS
+        run: |
+          set -e
+          mkdir -p /tmp/smartdns
+          wget -q https://github.com/pymumu/smartdns/releases/latest/download/smartdns-x86_64 -O /tmp/smartdns/smartdns
+          chmod +x /tmp/smartdns/smartdns
+          cp smartdns/smartdns.conf /tmp/smartdns/smartdns.conf
+          nohup /tmp/smartdns/smartdns -f -x -c /tmp/smartdns/smartdns.conf > /dev/null 2>&1 &
+
+      - name: Wait for SmartDNS
+        run: |
+          for i in $(seq 1 30); do
+            if timeout 2 bash -c "echo > /dev/udp/127.0.0.1/5053" 2>/dev/null; then
+              echo "SmartDNS port is open"
+              break
+            fi
+            echo "waiting for smartdns... ($i)"
+            sleep 2
+          done
+
       - name: Run Jar
         run:  java -jar ./target/adg-rule-1.0.0.jar
 
