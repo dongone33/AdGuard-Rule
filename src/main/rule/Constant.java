@@ -14,7 +14,7 @@ public class Constant {
     public static final String EXPIRES = "# Expires: 12 hours\r\n";
 
     public static final String REPO_URL =
-            "# Repo URL:: https://github.com/hululu1068/AdGuard-Rule\r\n\r\n";
+            "# Repo URL:: https://github.com/dongone33/AdGuard-Rule\r\n\r\n";
 
     public static final String OUTPUT_HEADER =
             "###################################   合并/去重自以下规则   ####################################\r\n";
