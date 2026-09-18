@@ -11,6 +11,7 @@ import org.fordes.adg.rule.config.RuleConfig;
 import org.fordes.adg.rule.thread.AbstractRuleThread;
 import org.fordes.adg.rule.thread.LocalRuleThread;
 import org.fordes.adg.rule.thread.RemoteRuleThread;
+import org.fordes.adg.rule.config.DnsValidateConfig;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
@@ -41,6 +42,8 @@ public class AdgRuleApplication implements ApplicationRunner {
     private final RuleConfig ruleConfig;
 
     private final OutputConfig outputConfig;
+
+    private final DnsValidateConfig dnsValidateConfig; // 新增字段
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
@@ -101,6 +104,13 @@ public class AdgRuleApplication implements ApplicationRunner {
             }
         } finally {
             executor.shutdownNow();
+        }
+
+        // 新增：域名连通性校验，剔除无法解析的失效域名规则
+        try {
+            new DomainValidator(dnsValidateConfig).filter(aggregator);
+        } catch (Exception e) {
+            log.warn("域名连通性校验执行失败，跳过，规则将保持原样输出: {}", e.getMessage());
         }
 
         RuleOutputWriter.write(outputPath, outputConfig.getFiles(), aggregator);
