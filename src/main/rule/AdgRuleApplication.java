@@ -6,12 +6,14 @@ import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.fordes.adg.rule.config.BlackListConfig;
 import org.fordes.adg.rule.config.OutputConfig;
 import org.fordes.adg.rule.config.RuleConfig;
+import org.fordes.adg.rule.enums.RuleType;
+import org.fordes.adg.rule.enums.RunMode;
 import org.fordes.adg.rule.thread.AbstractRuleThread;
 import org.fordes.adg.rule.thread.LocalRuleThread;
 import org.fordes.adg.rule.thread.RemoteRuleThread;
-import org.fordes.adg.rule.config.DnsValidateConfig;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
@@ -20,11 +22,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -43,24 +49,37 @@ public class AdgRuleApplication implements ApplicationRunner {
 
     private final OutputConfig outputConfig;
 
-    private final DnsValidateConfig dnsValidateConfig; // 新增字段
+    private final BlackListConfig blackListConfig;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
         TimeInterval interval = DateUtil.timer();
+        RunMode mode = RunMode.from(args);
+        log.info("运行模式: {}", mode);
+
+        // blacklist 模式完全独立，不需要拉取/聚合上游规则
+        if (mode == RunMode.BLACKLIST) {
+            new BlackListGenerator(blackListConfig).generate();
+            log.info("Done! {} ms", interval.intervalMs());
+            return;
+        }
+
         List<AbstractRuleThread> tasks = createTasks();
         if (tasks.isEmpty()) {
             throw new IllegalStateException("没有配置任何规则来源");
         }
 
-        if (outputConfig.getFiles() == null || outputConfig.getFiles().isEmpty()) {
-            throw new IllegalStateException("没有配置任何输出文件");
+        Path outputPath = null;
+        if (mode != RunMode.PREPARE) {
+            if (outputConfig.getFiles() == null || outputConfig.getFiles().isEmpty()) {
+                throw new IllegalStateException("没有配置任何输出文件");
+            }
+            if (StrUtil.isBlank(outputConfig.getPath())) {
+                throw new IllegalStateException("没有配置输出目录");
+            }
+            outputPath = Util.resolvePath(outputConfig.getPath());
+            validateLocalInputs(tasks, outputPath);
         }
-        if (StrUtil.isBlank(outputConfig.getPath())) {
-            throw new IllegalStateException("没有配置输出目录");
-        }
-        Path outputPath = Util.resolvePath(outputConfig.getPath());
-        validateLocalInputs(tasks, outputPath);
 
         int threadCount = Math.max(1, Math.min(tasks.size(), 2 * N));
         AtomicInteger threadNumber = new AtomicInteger();
@@ -106,15 +125,52 @@ public class AdgRuleApplication implements ApplicationRunner {
             executor.shutdownNow();
         }
 
-        // 新增：域名连通性校验，剔除无法解析的失效域名规则
-        try {
-            new DomainValidator(dnsValidateConfig).filter(aggregator);
-        } catch (Exception e) {
-            log.warn("域名连通性校验执行失败，跳过，规则将保持原样输出: {}", e.getMessage());
+        Path buildDir = Util.resolvePath(blackListConfig.getBuildDir());
+        Path domainFile = buildDir.resolve(blackListConfig.getDomainFile());
+        Path blackFile = buildDir.resolve(blackListConfig.getBlackFile());
+        DomainRuleIndex domainIndex = DomainRuleIndex.build(aggregator);
+
+        if (mode == RunMode.PREPARE) {
+            // 仅导出全量域名清单，供外部 SmartDNS 校验，对应 python adblock.py --mode prepare
+            writeDomainBackup(domainIndex.allDomains(), domainFile);
+            log.info("已生成域名全量清单: {} ({} 个域名)", domainFile, domainIndex.allDomains().size());
+            log.info("Done! {} ms", interval.intervalMs());
+            return;
+        }
+
+        // mode == ALL || mode == GENERATE：加载黑名单，剔除失效域名对应的规则
+        Set<String> blackSet = loadBlackSet(blackFile);
+        log.info("已加载黑名单域名: {} 个", blackSet.size());
+        if (!blackSet.isEmpty()) {
+            Map<RuleType, Set<String>> toRemove = domainIndex.rulesToRemove(blackSet);
+            for (Map.Entry<RuleType, Set<String>> entry : toRemove.entrySet()) {
+                log.info("剔除失效域名规则: {} -> {} 条", entry.getKey(), entry.getValue().size());
+                aggregator.removeAll(entry.getKey(), entry.getValue());
+            }
         }
 
         RuleOutputWriter.write(outputPath, outputConfig.getFiles(), aggregator);
+
+        if (mode == RunMode.ALL) {
+            // 单趟模式下顺带刷新域名清单，供下一轮 blacklist 校验使用
+            writeDomainBackup(domainIndex.allDomains(), domainFile);
+        }
+
         log.info("Done! {} ms", interval.intervalMs());
+    }
+
+    private void writeDomainBackup(Set<String> domains, Path file) throws IOException {
+        Files.createDirectories(file.getParent());
+        List<String> sorted = new ArrayList<>(domains);
+        sorted.sort(String::compareTo);
+        Files.write(file, sorted, StandardCharsets.UTF_8);
+    }
+
+    private Set<String> loadBlackSet(Path file) throws IOException {
+        if (!Files.exists(file)) {
+            return Collections.emptySet();
+        }
+        return new LinkedHashSet<>(Files.readAllLines(file, StandardCharsets.UTF_8));
     }
 
     private List<AbstractRuleThread> createTasks() {
