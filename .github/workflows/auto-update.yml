@@ -37,6 +37,9 @@ jobs:
       - name: Build with Maven
         run: mvn -B package
 
+      - name: Prepare domain backup
+        run: java -jar ./target/adg-rule-1.0.0.jar --mode=prepare
+
       - name: Setup SmartDNS
         run: |
           set -e
@@ -57,8 +60,11 @@ jobs:
             sleep 2
           done
 
-      - name: Run Jar
-        run:  java -jar ./target/adg-rule-1.0.0.jar
+      - name: Generate blacklist
+        run: java -jar ./target/adg-rule-1.0.0.jar --mode=blacklist
+
+      - name: Generate final rules
+        run: java -jar ./target/adg-rule-1.0.0.jar --mode=generate
 
       - name: Commit Changes
         id: commit
