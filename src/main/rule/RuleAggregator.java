@@ -45,6 +45,19 @@ public final class RuleAggregator {
         return new ArrayList<>(output);
     }
 
+    /**
+     * 按去重键批量剔除指定类型下的规则，用于域名连通性校验后移除失效规则
+     */
+    public void removeAll(RuleType type, Set<String> deduplicationKeys) {
+        if (deduplicationKeys == null || deduplicationKeys.isEmpty()) {
+            return;
+        }
+        LinkedHashMap<String, String> typedRules = rules.get(type);
+        if (typedRules != null) {
+            typedRules.keySet().removeAll(deduplicationKeys);
+        }
+    }
+
     public int size(RuleType type) {
         Map<String, String> typedRules = rules.get(type);
         return typedRules == null ? 0 : typedRules.size();
