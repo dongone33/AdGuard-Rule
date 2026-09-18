@@ -71,13 +71,18 @@ application:
         - MODIFY
       allow.txt:                            #单独输出的白名单/放行规则（@@||domain^）
         - DNS_EXCEPTION
-
-  dns-validate:
-    enabled: true            # 是否启用"用 SmartDNS 校验域名连通性并剔除失效域名"
-    server: 127.0.0.1        # SmartDNS 监听地址
-    port: 5053                # SmartDNS 监听端口，需和 smartdns.conf 中 bind 端口一致
-    timeout-ms: 3000          # 单次查询超时（毫秒）
-    retry: 2                  # 单个域名最多重试次数
-    concurrency: 200          # 并发查询线程数，根据 CI/服务器性能调整
-    health-check-attempts: 10 # 校验开始前的健康检查最大尝试次数
-    health-check-interval-ms: 3000 # 健康检查重试间隔
+ 
+  blacklist:
+    build-dir: build                    # 存放 domain.txt / black.txt 的目录，相对项目根目录
+    domain-file: domain.txt             # 全量候选域名清单
+    black-file: black.txt               # 失效域名黑名单
+    server: 127.0.0.1                   # SmartDNS 地址
+    port: 5053                          # SmartDNS 端口
+    timeout-ms: 5000                    # 单次查询超时，对应 python __dns_timeout
+    lifetime-ms: 8000                   # 单域名总耗时上限，对应 python __dns_lifetime
+    max-concurrency: 500                # 并发数，对应 python __maxTask
+    batch-size: 30000                   # 每批域名数，超过则批次间重启 SmartDNS，对应 python __health_check_interval
+    health-check-timeout-ms: 5000
+    health-check-sleep-seconds: 5       # 健康检查失败后的初始等待，指数退避上限 60s
+    health-check-max-wait-seconds: 600
+    smart-dns-path: /tmp/smartdns       # SmartDNS 可执行文件+配置所在目录，用于批次间重启；留空则不具备重启能力
