@@ -16,12 +16,13 @@ application:
       - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt' #AdGuard Chinese filter
       - 'https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt' #AdGuard Mobile Ads filter
       - 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt' #AdGuard DNS filter
+      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt' #AdGuard Tracking Protection
+      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt' #AdGuard Annoyances
       - 'https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/other/filter_7_SmartTVBlocklist/filter.txt' #SmartTV
 
     #自用添加
       - 'https://anti-ad.net/easylist.txt' #name: anti-AD
-      - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' #name: StevenBlack/hosts规则
-      - 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt' #AWAvenue Ads Rule
+      - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' #name: AWAvenue Ads Rule
       - 'https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad.txt' #name: HalfLife
       - 'https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/easylist.txt' #name: DD-AD
       - 'https://raw.githubusercontent.com/rssvcn/qy-Ads-Rule/main/black.txt' #name: 晴雅广告拦截规则
@@ -31,6 +32,7 @@ application:
       - 'https://raw.githubusercontent.com/TTDNS/Cat/refs/heads/main/DNS.TXT' #name: TTDNS
       - 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt' #name: 茯苓广告规则
       - 'https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt' #name: HG
+      - 'https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt' #name: lingeringsound adblock_auto
 
     #隐私保护
       - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt' #name: HaGeZi's Apple Tracker Blocklist
