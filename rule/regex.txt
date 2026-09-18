@@ -1,33 +1,33 @@
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - regex.txt
-# Update time: 2026-09-18 00:15:34
+# Update time: 2026-09-18 10:31:25
 # Expires: 12 hours
 # Repo URL:: https://github.com/hululu1068/AdGuard-Rule
 
 ###################################   合并/去重自以下规则   ####################################
-# - 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'
-# - 'https://cdn.jsdelivr.net/gh/durablenapkin/scamblocklist/adguard.txt'
-# - 'https://abp.oisd.nl/basic/'
-# - 'https://cdn.jsdelivr.net/gh/crazy-max/WindowsSpyBlocker/data/hosts/spy.txt'
-# - 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
 # - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt'
-# - 'https://anti-ad.net/easylist.txt'
+# - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt'
+# - 'https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt'
 # - 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
-# - 'https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt'
-# - 'https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt'
-# - 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt'
-# - 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt'
-# - 'https://adaway.org/hosts.txt'
-# - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt'
-# - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt'
-# - 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/Advertising/Advertising.txt'
-# - 'https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt'
+# - 'https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/other/filter_7_SmartTVBlocklist/filter.txt'
+# - 'https://anti-ad.net/easylist.txt'
 # - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt'
-# - 'https://github.com/ilxp/koolproxy/raw/main/rules/daily.txt'
-# - 'https://ublockorigin.pages.dev/filters/badware.txt'
-# - 'https://gitcdn.link/cdn/uBlockOrigin/uAssetsCDN/main/filters/privacy.txt'
-# - 'https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt'
-# - 'https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/resource-abuse.txt'
-# - 'https://gitcdn.link/cdn/uBlockOrigin/uAssetsCDN/main/filters/unbreak.txt'
+# - 'https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad.txt'
+# - 'https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/easylist.txt'
+# - 'https://raw.githubusercontent.com/rssvcn/qy-Ads-Rule/main/black.txt'
+# - 'https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt'
+# - 'https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts'
+# - 'https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/rules.txt'
+# - 'https://raw.githubusercontent.com/TTDNS/Cat/refs/heads/main/DNS.TXT'
+# - 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt'
+# - 'https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt'
+# - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt'
+# - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt'
+# - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt'
+# - 'https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt'
+# - 'https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/other/filter_66_HageziOppoRealmeTrackerBlocklist/filter.txt'
+# - 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt'
+# - 'https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/DD-AD.txt'
+# - 'https://raw.githubusercontent.com/qq5460168/666/master/allow.txt'
 # - 'mylist.txt'
 ###############################################################################################
 
@@ -50,6 +50,20 @@
 /(https?:\/\/)216\.21\..{100,}/
 /(https?:\/\/)217\.182\.11\..{100,}/
 /(https?:\/\/)51\.195\.31\..{100,}/
+/^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.\w{2}\d{1,6}\w{4}\.com$/
+/^https:\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/bug\?i=\d+$/
+/pa.dajiahao*.top/
+/^https:\/\/(a|c)\.[0-9a-f]{56}\.com$/
+/^(a|c)\.[0-9a-f]{56}\.com$/
+/^139\.45\.197\.2(4[0-9]|5[0-4]):/
+/^88\.208\.22\.[1234]:/
+/^94\.242\.247\.(2[0-9]|3[0-2]):/
+/^142\.91\.159\.(1[5-9]\d|2[0-4]\d|250):(80|443)$/
+/^https:\/\/anon1.gt\d{6}.com/
+/^anon1.gt\d{6}.com$/
+/^2.59.219.121/
+/62.76.25.2(7|8)/
+/193.200.64.24:/
 /^(\S+\.)?affiliat(es?[0-9a-z]*?|ion[0-9\-a-z]*?|ly[0-9a-z\-]*?)\./
 /^(\S+\.)?s?metrics\./
 /^(\S+\.)?afgr[\d]{1,2}\.com$/
@@ -79,47 +93,47 @@
 /^(\S+\.)?hg[0-9]{4,5}\.com?$/
 /^(\S+\.)?333[1-9]{2}[0-9]{2}\.com?$/
 /^(\S+\.)?5551[0-9]{3}\.com?$/
-/^139\.45\.197\.2(4[0-9]|5[0-4]):/
-/^88\.208\.22\.[1234]:/
-/^94\.242\.247\.(2[0-9]|3[0-2]):/
-/^142\.91\.159\.(1[5-9]\d|2[0-4]\d|250):(80|443)$/
-/^https:\/\/(a|c)\.[0-9a-f]{56}\.com$/
-/^(a|c)\.[0-9a-f]{56}\.com$/
-/^https:\/\/anon1.gt\d{6}.com/
-/^anon1.gt\d{6}.com$/
-/^2.59.219.121/
-/62.76.25.2(7|8)/
-/193.200.64.24:/
-/^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.\w{2}\d{1,6}\w{4}\.com$/
-/[a-z]+\d+\.cnzz\./
-/(?::\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4})/
-/community-ad/
-/Adloader/
-/99rejs/
-/^.+stat\.kugou\.com/
-/^admarvel\./
-/^admaster\./
-/^adsage\./
-/^adsensor\./
-/^adservice\./
-/^adsmogo\./
-/^adsrvmedia\./
-/^adsserving\./
-/^adsystem\./
-/^adwords\./
-/^applovin\./
-/^appsflyer\./
-/^domob\./
-/^duomeng\./
-/^dwtrack\./
-/^guanggao\./
-/^omgmta\./
-/^omgmtaw\./
-/^omniture\./
-/^openx\./
-/^partnerad\./
-/^pingfore\./
-/^socdm\./
-/^supersonicads\./
-/^wlmonitor\./
-/^zjtoolbar\./
+/m.realgfporn.com\/[a-z]{1,13}[0-9]{1,13}[a-z]{1,13}.js/
+/pangolin-sdk.*/
+/.*adservice.*/
+/.*pglstatp.*/
+/.*byteorge.*/
+/.*bytegoofy.*/
+/.*bytedance.*/
+/.*ad-sign.*/
+/.*mgsdk-sign.*/
+/.*pangolin.*/
+/.*adsmind.*/
+/.*ad.wtzw.com.*/
+/.*zijieapi.*/
+/.*ibytedapm.*/
+/.*panglelog.*/
+/.*umeng.*/
+/.*tsyouto.*/
+/.*bytegecko.*/
+/zijieapi.*/
+/byteorge.*/
+/bytegoofy.*/
+/bytedance.*/
+/snssdk.*/
+/lf.fqnovel.*/
+/ad-sign.*/
+/fqnovelvod.*/
+/mgsdk-sign.*/
+/pangolin.*\.com/
+/pangolin.*\.net/
+/webcast.*\.douyin\.com/
+/live.*\.douyin\.com/
+/webcast.*\.bytegecko\.com/
+/webcast.*\.amemv\.com/
+/p[0-9]+-be-pack-sign\.byteimg\.com/
+/sf[0-9]+-ttcdn-tos\.pstatp\.com/
+/mon[0-9]+.*\.fqnovel\.com/
+/.*novelapp\.fqnovelvod\.com/
+/.*ad-sign.*\.byteimg\.com/
+/.*ad-sign.*\.tiktokcdn\.com/
+/.*ad-sign.*\.douyincdn\.com/
+/.*\.yingt\.fun/
+/.*\.hnzkclouds\.com/
+/scontent-[a-z]{3}[0-9]+.*\.fbcdn\.net/
+/external.*\.fbcdn\.net/
