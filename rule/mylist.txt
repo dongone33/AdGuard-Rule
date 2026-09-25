@@ -26,8 +26,8 @@
 @@||bootcdn.net^$important
 
 #绿联Nas
-@@||api-zh.ugnas.com^$important
-@@||api.ugnas.com^$important
+@@||ugnas.com^$important
+@@||ug.link^$important
 #养基宝
 @@||app-api.yangjibao.com^$important
 
