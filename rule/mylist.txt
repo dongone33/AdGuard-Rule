@@ -27,7 +27,7 @@
 
 #绿联Nas
 @@||api-zh.ugnas.com^$important
-
+@@||api.ugnas.com^$important
 #养基宝
 @@||app-api.yangjibao.com^$important
 
