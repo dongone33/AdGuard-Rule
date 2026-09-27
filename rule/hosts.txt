@@ -1,5 +1,5 @@
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - hosts.txt
-# Update time: 2026-09-26 23:38:00
+# Update time: 2026-09-27 11:10:02
 # Expires: 12 hours
 # Repo URL:: https://github.com/dongone33/AdGuard-Rule
 
@@ -77,7 +77,6 @@
 140.82.112.18 github.community
 140.82.113.21 collector.github.com
 140.82.113.26 alive.github.com
-140.82.113.22 central.github.com
 192.0.66.2 github.blog
 13.107.42.16 pipelines.actions.githubusercontent.com
 185.199.110.153 lsposed.github.io
@@ -134,7 +133,6 @@
 0.0.0.0 api.jietuhb.com
 0.0.0.0 pgdt.ugdtimg.com
 0.0.0.0 cdn-ad.wtzw.com
-0.0.0.0 cdn-new-ad.wtzw.com
 0.0.0.0 update.wtzw.com
 0.0.0.0 xiaoshuo.wtzw.com
 0.0.0.0 a6-remad.qm989.com
@@ -175,6 +173,7 @@
 0.0.0.0 track.58.com
 0.0.0.0 tracklog.58.com
 0.0.0.0 usdtop.58.com
+0.0.0.0 stat.58.xgo.com.cn
 0.0.0.0 stat.xgo.com.cn
 0.0.0.0 analytics.ganji.com
 0.0.0.0 c1.ifengimg.com
@@ -186,7 +185,6 @@
 0.0.0.0 m.ads.sohu.com
 0.0.0.0 r.ads.sohu.com
 0.0.0.0 s.ads.sohu.com
-0.0.0.0 sc.ads.sohu.com
 0.0.0.0 t.ads.sohu.com
 0.0.0.0 adpai.thepaper.cn
 0.0.0.0 file.36krcdn.com
@@ -254,6 +252,7 @@
 0.0.0.0 app-monitor.ele.me
 0.0.0.0 ads.95516.com
 0.0.0.0 ad.maoyan.com
+0.0.0.0 a1.alibabausercontent.com
 0.0.0.0 afd.baidu.com
 0.0.0.0 afdconf.baidu.com
 0.0.0.0 ugc.map.baidu.com
@@ -261,7 +260,6 @@
 0.0.0.0 aiad-aisuda.cdn.bcebos.com
 0.0.0.0 optimus-ads.amap.com
 0.0.0.0 store.is.autonavi.com
-0.0.0.0 cgicol.amap.com
 0.0.0.0 awaken.amap.com
 0.0.0.0 amap-aos-info-nogw.amap.com
 0.0.0.0 optimus-ads-ykx.amap.com
@@ -271,6 +269,7 @@
 0.0.0.0 ma-adx.ctrip.com
 0.0.0.0 ad.12306.cn
 0.0.0.0 adproxy.autohome.com.cn
+0.0.0.0 33.autohome.com.cn
 0.0.0.0 c.autohome.com.cn
 0.0.0.0 pcd.autohome.com.cn
 0.0.0.0 adm0.autoimg.cn
@@ -279,7 +278,6 @@
 0.0.0.0 adm3.autoimg.cn
 0.0.0.0 richmanrules.ksedt.com
 0.0.0.0 adx.yiche.com
-0.0.0.0 as.hongyibo.com.cn
 0.0.0.0 res.hongyibo.com.cn
 0.0.0.0 scs.kakamobi.cn
 0.0.0.0 advert.api.thejoyrun.com
@@ -320,6 +318,7 @@
 0.0.0.0 vol.bczcdn.com
 0.0.0.0 version.yangcong345.com
 0.0.0.0 materialcenter.gsxcdn.com
+0.0.0.0 a.wkanx.com
 0.0.0.0 adx-ad-prod.wkanx.com
 0.0.0.0 movies.ttwifi.net
 0.0.0.0 track-config.y5kfpt.com
@@ -397,6 +396,7 @@
 0.0.0.0 appupdates.189.cn
 0.0.0.0 bkappad.189.cn
 0.0.0.0 ad.seeyouyima.com
+0.0.0.0 pic-ad-ld.tupian1234.com
 0.0.0.0 adx.babytree.com
 0.0.0.0 mapiweb.babytree.com
 0.0.0.0 plough.babytree.com
@@ -447,7 +447,6 @@
 0.0.0.0 tj.kugou.com
 0.0.0.0 update.mobile.kugou.com
 0.0.0.0 tmeadkg.y.qq.com
-0.0.0.0 channel.fanxing.kugou.com
 0.0.0.0 fanxing.kugou.com
 0.0.0.0 log.web.kugou.com
 0.0.0.0 song.fanxing.kugou.com
@@ -465,6 +464,7 @@
 0.0.0.0 admgr.qingting.fm
 0.0.0.0 logger.qingting.fm
 0.0.0.0 adlaunch.qtfm.cn
+0.0.0.0 ad-cdn.qtfm.cn
 0.0.0.0 counter.m1905.com
 0.0.0.0 trace.m1905.cn
 0.0.0.0 vodlog.m1905.cn
@@ -480,12 +480,12 @@
 0.0.0.0 static.app.m.letv.com
 0.0.0.0 test.ark.letv.com
 0.0.0.0 cdn.hpplay.com.cn
-0.0.0.0 ads.aplus.pptv.com
 0.0.0.0 ppvabs.pplive.com
 0.0.0.0 mads.suning.com
 0.0.0.0 ex.as.pptv.com
 0.0.0.0 as.aplus.pptv.com
-0.0.0.0 gas.data.pplive.com
+0.0.0.0 tj.g.pptv.com
+0.0.0.0 asimgs.pplive.cn
 0.0.0.0 plt.data.pplive.com
 0.0.0.0 web.data.pplive.com
 0.0.0.0 pptv.m.cn.miaozhen.com
@@ -580,16 +580,16 @@
 0.0.0.0 adx-open-service.youku.com
 0.0.0.0 pl.cp31.ott.cibntv.net
 0.0.0.0 vali-ugc.cp31.ott.cibntv.net
+0.0.0.0 val.atm.cp31.ott.cibntv.net
 0.0.0.0 valf.atm.cp31.ott.cibntv.net
 0.0.0.0 vali.cp31.ott.cibntv.net
 0.0.0.0 youku-dtv.m.cn.miaozhen.com
 0.0.0.0 px.ucweb.com
 0.0.0.0 orange-dc.youku.com
 0.0.0.0 ykugc.cp31.ott.cibntv.net
+0.0.0.0 vali-dns.cp31.ott.cibntv.net
 0.0.0.0 pis-pcdn.youku.com
 0.0.0.0 appupgrade.alicdn.com
-0.0.0.0 appupgrade.cp12.ott.cibntv.net
-0.0.0.0 valipl.cp31.ott.cibntv.net
 0.0.0.0 yk-ssp-ad.cp31.ott.cibntv.net
 0.0.0.0 sv-video.play.aiseet.atianqi.com
 0.0.0.0 andrqd.play.aiseet.atianqi.com
@@ -1115,7 +1115,6 @@
 0.0.0.0 pmp-ad.cdn.bcebos.com
 0.0.0.0 fc-feed.cdn.bcebos.com
 0.0.0.0 pn-cover.cdn.bcebos.com
-0.0.0.0 rmblive.cdn.bcebos.com
 0.0.0.0 search-operate.cdn.bcebos.com
 0.0.0.0 render-server.cdn.bcebos.com
 0.0.0.0 www.dxmpay.com
@@ -1646,7 +1645,6 @@
 0.0.0.0 config.samsungads.com
 0.0.0.0 api-adservices.apple.com
 0.0.0.0 ca.iadsdk.apple.com
-0.0.0.0 cf.iadsdk.apple.com
 0.0.0.0 advertising.apple.com
 0.0.0.0 searchads.apple.com
 0.0.0.0 ads-drcn.platform.hihonorcloud.com
@@ -1733,6 +1731,7 @@
 0.0.0.0 tr-st-sl.vivoglobal.com
 0.0.0.0 tr-vcode-od.vivoglobal.com
 0.0.0.0 ad.mi.com
+0.0.0.0 a.stat.xiaomi.com
 0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 diagnosis.ad.xiaomi.com
 0.0.0.0 e.ad.xiaomi.com
@@ -1767,6 +1766,8 @@
 127.0.0.1 etl-xlmc-ssl.sandai.net
 127.0.0.1 cn.app.chat.xiaomi.net
 47.246.37.220 bigota.d.miui.com
+0.0.0.0 qr.quickapp.cn
+0.0.0.0 qrcdn.quickapp.cn
 0.0.0.0 statres.quickapp.cn
 0.0.0.0 api.jr.mi.com
 0.0.0.0 sug.browser.miui.com
@@ -1861,6 +1862,9 @@
 0.0.0.0 ad-emea.doubleclick.net
 0.0.0.0 ff.doubleclick.net
 0.0.0.0 fls.doubleclick.net
+0.0.0.0 5290727.fls.doubleclick.net
+0.0.0.0 8168974.fls.doubleclick.net
+0.0.0.0 8397396.fls.doubleclick.net
 0.0.0.0 adx.g.doubleclick.net
 0.0.0.0 bid.g.doubleclick.net
 0.0.0.0 cm.g.doubleclick.net
@@ -1969,6 +1973,7 @@
 0.0.0.0 alliance.breaktime.com.tw
 0.0.0.0 powerads.breaktime.com.tw
 0.0.0.0 elads.kocpc.com.tw
+0.0.0.0 a.teads.tv
 0.0.0.0 s.peplle.cn
 0.0.0.0 pttptt.cc
 0.0.0.0 ads.adfox.ru
@@ -2092,6 +2097,7 @@
 0.0.0.0 www.flurry.com
 0.0.0.0 flurry.cachefly.net
 0.0.0.0 www.tradplusad.com
+0.0.0.0 a.tradplusad.com
 0.0.0.0 api.tradplusad.com
 0.0.0.0 api-developer.tradplusad.com
 0.0.0.0 api-manager.tradplusad.com
@@ -2164,6 +2170,7 @@
 0.0.0.0 stage-vid.applovin.com
 0.0.0.0 stage-ms.applovin.com
 0.0.0.0 res1.applovin.com
+0.0.0.0 a4.applovin.com
 0.0.0.0 pdn.applovin.com
 0.0.0.0 ms4.applovin.com
 0.0.0.0 prod-ms.applovin.com
@@ -2190,7 +2197,6 @@
 0.0.0.0 c3.taboola.com
 0.0.0.0 sync.taboola.com
 0.0.0.0 authentication.taboola.com
-0.0.0.0 ch-match.taboola.com
 0.0.0.0 popup.taboola.com
 0.0.0.0 sync-t1.taboola.com
 0.0.0.0 actions-sg.taboola.com
@@ -2259,7 +2265,6 @@
 0.0.0.0 gcdsdk.appsflyersdk.com
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 staging-cdn-testsettings.appsflyersdk.com
-0.0.0.0 cfwz.customlinks.appsflyer.com
 0.0.0.0 email.appsflyer.com
 0.0.0.0 cdnappicons.appsflyer.com
 0.0.0.0 go.appsflyer.com
@@ -2529,7 +2534,6 @@
 0.0.0.0 ali-stats.jpush.cn
 0.0.0.0 api.jpush.cn
 0.0.0.0 api.sms.jpush.cn
-0.0.0.0 api.srv.jpush.cn
 0.0.0.0 api.verification.jpush.cn
 0.0.0.0 awake-stats.jpush.cn
 0.0.0.0 bj-api.srv.jpush.cn
@@ -2657,7 +2661,6 @@
 0.0.0.0 uni-shumeng.zhipin.com
 0.0.0.0 www.xdrig.com
 0.0.0.0 adt.xdrig.com
-0.0.0.0 app.xdrig.com
 0.0.0.0 conf.xdrig.com
 0.0.0.0 ga.xdrig.com
 0.0.0.0 me.xdrig.com
@@ -2845,8 +2848,6 @@
 0.0.0.0 api-ga.aiclk.com
 0.0.0.0 api.aiclk.com
 0.0.0.0 cdn.aiclk.com
-0.0.0.0 cfg.aiclk.com
-0.0.0.0 cfg-cdn.aiclk.com
 0.0.0.0 config-flag.aiclk.com
 0.0.0.0 cpc-service-square.aiclk.com
 0.0.0.0 cpc-cdn.aiclk.com
@@ -2940,6 +2941,7 @@
 0.0.0.0 yktd.m.cn.miaozhen.com
 0.0.0.0 360fenxi.mediav.com
 0.0.0.0 360.munion.mediav.com
+0.0.0.0 3m.mediav.com
 0.0.0.0 api-ext.mediav.com
 0.0.0.0 cjhd.mediav.com
 0.0.0.0 ckmap.mediav.com
@@ -3007,10 +3009,12 @@
 0.0.0.0 s9.irs03.com
 0.0.0.0 www.oadz.com
 0.0.0.0 1.oadz.com
+0.0.0.0 671.oadz.com
 0.0.0.0 751.oadz.com
 0.0.0.0 2043.oadz.com
 0.0.0.0 2701.oadz.com
-0.0.0.0 3135.oadz.com
+0.0.0.0 a751.oadz.com
+0.0.0.0 a1872.oadz.com
 0.0.0.0 fac2.oadz.com
 0.0.0.0 m1872.oadz.com
 0.0.0.0 s.oadz.com
@@ -3060,6 +3064,7 @@
 0.0.0.0 domob.cn
 0.0.0.0 dos-track.domob.cn
 0.0.0.0 e.domob.cn
+0.0.0.0 mail.domob.cn
 0.0.0.0 s.domob.cn
 0.0.0.0 sd.domob.cn
 0.0.0.0 sm.domob.cn
@@ -3069,6 +3074,7 @@
 0.0.0.0 sm.domobcdn.com
 0.0.0.0 ac.mmstat.com
 0.0.0.0 ae.mmstat.com
+0.0.0.0 cnzz.mmstat.com
 0.0.0.0 d-gm.mmstat.com
 0.0.0.0 dz.mmstat.com
 0.0.0.0 go.mmstat.com
@@ -3105,7 +3111,6 @@
 0.0.0.0 account.tingyun.com
 0.0.0.0 blog.tingyun.com
 0.0.0.0 boss.tingyun.com
-0.0.0.0 cesule.tingyun.com
 0.0.0.0 dev-mysql-conf.tingyun.com
 0.0.0.0 doc.tingyun.com
 0.0.0.0 member.tingyun.com
@@ -3162,6 +3167,7 @@
 0.0.0.0 ocpx.mktad.cn
 0.0.0.0 api.quminglemei.com
 0.0.0.0 data.quminglemei.com
+0.0.0.0 api.ctjpqg.cn
 0.0.0.0 api.tsyouto.cn
 0.0.0.0 adx.maplehaze.cn
 0.0.0.0 dsp.maplehaze.cn
@@ -3380,6 +3386,7 @@
 0.0.0.0 bid-adx.vlion.cn
 0.0.0.0 mdsp.vlion.cn
 0.0.0.0 www.vlion.cn
+0.0.0.0 a.vlion.cn
 0.0.0.0 q.vlion.cn
 0.0.0.0 b.vlion.cn
 0.0.0.0 adx-saas.advlion.com
@@ -3388,7 +3395,6 @@
 0.0.0.0 www.advlion.com
 0.0.0.0 api-auth.flysleep.cn
 0.0.0.0 cdn-api-auth.flysleep.cn
-0.0.0.0 cfgc.flysleep.cn
 0.0.0.0 devc.flysleep.cn
 0.0.0.0 errc.flysleep.cn
 0.0.0.0 fdl.flysleep.cn
@@ -3396,7 +3402,6 @@
 0.0.0.0 upc.flysleep.cn
 0.0.0.0 api-auth.zztfly.com
 0.0.0.0 cdn-api-auth.zztfly.com
-0.0.0.0 cfgc.zztfly.com
 0.0.0.0 devc.zztfly.com
 0.0.0.0 errc.zztfly.com
 0.0.0.0 fdl.zztfly.com
@@ -3414,7 +3419,6 @@
 0.0.0.0 aic.oceanengine.com
 0.0.0.0 yuntu.oceanengine.com
 0.0.0.0 partnership.oceanengine.com
-0.0.0.0 v9-linkchat.oceanengine.com
 0.0.0.0 apps.oceanengine.com
 0.0.0.0 mmm.oceanengine.com
 0.0.0.0 log-api.oceanengine.com
@@ -3494,7 +3498,6 @@
 0.0.0.0 act.adintl.cn
 0.0.0.0 sdk.zhangyuyidong.cn
 0.0.0.0 sdklog.zhangyuyidong.cn
-0.0.0.0 check.rayjump.com
 0.0.0.0 nl-new-cdn-ssplib-europe-west4-c-hb.rayjump.com
 0.0.0.0 policy.rayjump.com
 0.0.0.0 ag-tk.oneway.mobi
@@ -3567,7 +3570,6 @@
 0.0.0.0 stat2.openinstall.io
 0.0.0.0 api2.deepinstall.com
 0.0.0.0 stat2.deepinstall.com
-0.0.0.0 aem.dentsuchina.cn
 0.0.0.0 t.dentsuchina.cn
 0.0.0.0 dsp.tuia.cn
 0.0.0.0 fp-it.portal101.cn
@@ -3693,12 +3695,15 @@
 0.0.0.0 1010pic.com
 0.0.0.0 2052.flash2-http.qq.com
 0.0.0.0 39d83s.com
-0.0.0.0 3gsoftfile.tc.qq.com
-0.0.0.0 3gsoftfile.tcdn.qq.com
+0.0.0.0 8le8le.com
 0.0.0.0 a-remad.qm989.com
 0.0.0.0 a.ac.qq.com
 0.0.0.0 a.glcdn.co
 0.0.0.0 a.medialytics.com
+0.0.0.0 a.ssl.msdk.qq.com
+0.0.0.0 a.tn.token-ad.com
+0.0.0.0 a.vserv.mobi
+0.0.0.0 a0.app.xiaomi.com
 0.0.0.0 aaid.uyunad.com
 0.0.0.0 ac.o2.qq.com
 0.0.0.0 access.open.uc.cn
@@ -3963,14 +3968,7 @@
 0.0.0.0 cdn.celtra.com
 0.0.0.0 cdn.creative.medialytics.com
 0.0.0.0 cdn.read.html5.qq.com
-0.0.0.0 cfg.flurry.com
-0.0.0.0 cfg.imtt.qq.com
-0.0.0.0 cgi.connect.qq.com
-0.0.0.0 cgi.pub.qq.com
-0.0.0.0 cgi.qianbao.qq.com
-0.0.0.0 chat1.jd.com
 0.0.0.0 chc.ads.huan.tv
-0.0.0.0 choice.microsoft.com
 0.0.0.0 ck.ads.oppomobile.com
 0.0.0.0 click.buzzcity.net
 0.0.0.0 client.show.qq.com
@@ -4091,6 +4089,8 @@
 0.0.0.0 grs.dbankcloud.com
 0.0.0.0 grs.hicloud.com
 0.0.0.0 gstat.myzaker.com
+0.0.0.0 lm10111.jtrincc.cn
+0.0.0.0 lmbsy.qq.com
 0.0.0.0 location.ximalaya.com
 0.0.0.0 log-api-mn.huxiu.com
 0.0.0.0 log-api.huxiu.com
@@ -4143,11 +4143,11 @@
 0.0.0.0 me.cpatrk.net
 0.0.0.0 media-service-source.soulapp.cn
 0.0.0.0 media-service.soulapp.cn
+0.0.0.0 media.mobpartner.mobi
 0.0.0.0 metrics.icloud.com
 0.0.0.0 metrics.mzstatic.com
 0.0.0.0 mgvrst.mi-shop.com
 0.0.0.0 mi-manga-hentai.blogspot.com
-0.0.0.0 mi-mercadito.mx
 0.0.0.0 mi-trophy.co.uk
 0.0.0.0 mi.adinterax.com
 0.0.0.0 mi.atm.youku.com
@@ -4238,6 +4238,7 @@
 0.0.0.0 qqwx.zhangguangzong.com
 0.0.0.0 qring-tms.qq.com
 0.0.0.0 r.51wnl-cq.com
+0.0.0.0 r.mobpartner.mobi
 0.0.0.0 r.pixgold.com
 0.0.0.0 rc-topic-api.bz.mgtv.com
 0.0.0.0 rd.autohome.com.cn
@@ -4539,13 +4540,18 @@
 127.0.0.1 2fprebid.adnxs.com
 127.0.0.1 2fsecure.adnxs.com
 127.0.0.1 2fvcdn.adnxs.com
-127.0.0.1 3135.oadz.com
+127.0.0.1 33.autohome.com.cn
 127.0.0.1 360.munion.mediav.com
 127.0.0.1 360fenxi.mediav.com
+127.0.0.1 3m.mediav.com
 127.0.0.1 3p-geo.yahoo.com
 127.0.0.1 3p-udc.yahoo.com
 127.0.0.1 4img.mgtv.com
+127.0.0.1 5290727.fls.doubleclick.net
+127.0.0.1 671.oadz.com
 127.0.0.1 751.oadz.com
+127.0.0.1 8168974.fls.doubleclick.net
+127.0.0.1 8397396.fls.doubleclick.net
 127.0.0.1 8510_s.gw.irs03.com
 127.0.0.1 8667_s.gw.irs03.com
 127.0.0.1 8668_s.gw.irs03.com
@@ -4563,7 +4569,16 @@
 127.0.0.1 a.gdt.qq.com
 127.0.0.1 a.m.adnxs.com
 127.0.0.1 a.qchannel03.cn
+127.0.0.1 a.stat.xiaomi.com
+127.0.0.1 a.teads.tv
+127.0.0.1 a.tradplusad.com
+127.0.0.1 a.vlion.cn
+127.0.0.1 a.wkanx.com
+127.0.0.1 a1.alibabausercontent.com
+127.0.0.1 a1872.oadz.com
+127.0.0.1 a4.applovin.com
 127.0.0.1 a6-remad.qm989.com
+127.0.0.1 a751.oadz.com
 127.0.0.1 aa.birdgesdk.com
 127.0.0.1 aa.toponad.com
 127.0.0.1 aads.shuzilm.cn
@@ -4615,6 +4630,7 @@
 127.0.0.1 actions-sg.taboola.com
 127.0.0.1 activity.umeng.com
 127.0.0.1 ad-asm.tianmu.mobi
+127.0.0.1 ad-cdn.qtfm.cn
 127.0.0.1 ad-channel.diwodiwo.xyz
 127.0.0.1 ad-clientlog.cn-shanghai.log.aliyuncs.com
 127.0.0.1 ad-delivery.net
@@ -4789,7 +4805,6 @@
 127.0.0.1 ads.adfunlink.com
 127.0.0.1 ads.api.fakeloc.cc
 127.0.0.1 ads.api.vungle.com
-127.0.0.1 ads.aplus.pptv.com
 127.0.0.1 ads.aralego.com
 127.0.0.1 ads.betweendigital.com
 127.0.0.1 ads.cxwlad.com
@@ -4976,7 +4991,6 @@
 127.0.0.1 ae.mmstat.com
 127.0.0.1 aecpm.alicdn.com
 127.0.0.1 aedns.weixin.qq.com
-127.0.0.1 aem.dentsuchina.cn
 127.0.0.1 aeventlog.beacon.qq.com
 127.0.0.1 afd.baidu.com
 127.0.0.1 afdconf.baidu.com
@@ -5121,6 +5135,7 @@
 127.0.0.1 api.bz.igexin.com
 127.0.0.1 api.cn.miaozhen.com
 127.0.0.1 api.comm.miui.com
+127.0.0.1 api.ctjpqg.cn
 127.0.0.1 api.cupid.iqiyi.com
 127.0.0.1 api.data.jiguang.cn
 127.0.0.1 api.developer.xiaomi.com
@@ -5176,7 +5191,6 @@
 127.0.0.1 api.shuzilm.cn
 127.0.0.1 api.sms.jpush.cn
 127.0.0.1 api.so.lianmeng.360.cn
-127.0.0.1 api.srv.jpush.cn
 127.0.0.1 api.ssp.sigmob.cn
 127.0.0.1 api.taboola.com
 127.0.0.1 api.th.wanzjhb.com
@@ -5232,7 +5246,6 @@
 127.0.0.1 app.takuad.com
 127.0.0.1 app.toponad.com
 127.0.0.1 app.wiki.gg
-127.0.0.1 app.xdrig.com
 127.0.0.1 appapi.51job.com
 127.0.0.1 appcfg.v.qq.com
 127.0.0.1 appconf.mail.163.com
@@ -5254,7 +5267,6 @@
 127.0.0.1 appupdate.189.cn
 127.0.0.1 appupdates.189.cn
 127.0.0.1 appupgrade.alicdn.com
-127.0.0.1 appupgrade.cp12.ott.cibntv.net
 127.0.0.1 appversion.115.com
 127.0.0.1 ares.guazi.com
 127.0.0.1 ark.letv.com
@@ -5263,7 +5275,6 @@
 127.0.0.1 arthur.oceanengine.com
 127.0.0.1 artifacts.applovin.com
 127.0.0.1 as.aplus.pptv.com
-127.0.0.1 as.hongyibo.com.cn
 127.0.0.1 as.weixin.qq.com
 127.0.0.1 asearch.alicdn.com
 127.0.0.1 asia-analyzer-appstore.vivoglobal.com
@@ -5277,6 +5288,7 @@
 127.0.0.1 asia-pnrt-stsdk.vivoglobal.com
 127.0.0.1 asia-prt-stsdk.vivoglobal.com
 127.0.0.1 asia-stsdk.vivoglobal.com
+127.0.0.1 asimgs.pplive.cn
 127.0.0.1 asmax.domob.cn
 127.0.0.1 asmax.domobcdn.com
 127.0.0.1 aspect-upush.umeng.com
@@ -5516,7 +5528,6 @@
 127.0.0.1 cdn-getuigw.getui.com
 127.0.0.1 cdn-haokanapk.baidu.com
 127.0.0.1 cdn-lb.vungle.com
-127.0.0.1 cdn-new-ad.wtzw.com
 127.0.0.1 cdn-sdk-opt.getui.com
 127.0.0.1 cdn-settings.appsflyersdk.com
 127.0.0.1 cdn.1rtb.com
@@ -5552,18 +5563,7 @@
 127.0.0.1 ce10aa.d2api.shuzilm.cn
 127.0.0.1 ce3e75d5-ipv6.jpush.cn
 127.0.0.1 ce3e75d5.jpush.cn
-127.0.0.1 cesule.tingyun.com
-127.0.0.1 cf.iadsdk.apple.com
-127.0.0.1 cfg-cdn.aiclk.com
-127.0.0.1 cfg.aiclk.com
-127.0.0.1 cfgc.flysleep.cn
-127.0.0.1 cfgc.zztfly.com
-127.0.0.1 cfwz.customlinks.appsflyer.com
-127.0.0.1 cgicol.amap.com
-127.0.0.1 ch-match.taboola.com
-127.0.0.1 channel.fanxing.kugou.com
 127.0.0.1 channels.weixin.qq.com
-127.0.0.1 check.rayjump.com
 127.0.0.1 china.inmobi.com
 127.0.0.1 cic.umeng.com
 127.0.0.1 cjhd.mediav.com
@@ -5617,6 +5617,7 @@
 127.0.0.1 cnlogs.umeng.com
 127.0.0.1 cnlogs.umengcloud.com
 127.0.0.1 cnvpn.inmobi.cn
+127.0.0.1 cnzz.mmstat.com
 127.0.0.1 code.sms.mob.com
 127.0.0.1 collect.bz.mgtv.com
 127.0.0.1 commercial.iem.taptap.cn
@@ -6022,7 +6023,6 @@
 127.0.0.1 game.weibo.cn
 127.0.0.1 gameplus-platform.cdn.bcebos.com
 127.0.0.1 ganon.yahoo.com
-127.0.0.1 gas.data.pplive.com
 127.0.0.1 gateway.kugou.com
 127.0.0.1 gateway.open.umeng.com
 127.0.0.1 gatewayretry.kugou.com
@@ -6192,6 +6192,7 @@
 127.0.0.1 mads.amazon-adsystem.com
 127.0.0.1 mads.suning.com
 127.0.0.1 madx.flyme.cn
+127.0.0.1 mail.domob.cn
 127.0.0.1 mail.mps.gov.cn
 127.0.0.1 manager.tradplusad.com
 127.0.0.1 manhua.acimg.cn
@@ -6657,6 +6658,7 @@
 127.0.0.1 pg.aty.sohu.com
 127.0.0.1 pgdt.gtimg.cn
 127.0.0.1 pgdt.ugdtimg.com
+127.0.0.1 pic-ad-ld.tupian1234.com
 127.0.0.1 pic.fastapi.net
 127.0.0.1 pic.feedsads.cn
 127.0.0.1 pic.jd-bbs.com
@@ -6804,7 +6806,9 @@
 127.0.0.1 qpb1.sohu.com
 127.0.0.1 qqdata.ab.qq.com
 127.0.0.1 qqshow2-item.qq.com
+127.0.0.1 qr.quickapp.cn
 127.0.0.1 qrapi.play.aiseet.atianqi.com
+127.0.0.1 qrcdn.quickapp.cn
 127.0.0.1 qss-client.qq.com
 127.0.0.1 qtsftl.m.cn.miaozhen.com
 127.0.0.1 qtt.ads.8le8le.com
@@ -6872,7 +6876,6 @@
 127.0.0.1 rm.sina.com.cn
 127.0.0.1 rmads.eu.msn.com
 127.0.0.1 rmads.msn.com
-127.0.0.1 rmblive.cdn.bcebos.com
 127.0.0.1 rmpad.imtt.qq.com
 127.0.0.1 rpe.xdplt.com
 127.0.0.1 rpen.xdplt.com
@@ -7067,7 +7070,6 @@
 127.0.0.1 sb.scorecardresearch.com
 127.0.0.1 sbeacon.sina.com.cn
 127.0.0.1 sbkh5.z74d.com
-127.0.0.1 sc.ads.sohu.com
 127.0.0.1 sc.atest.mob.com
 127.0.0.1 scene.vip.xunlei.com
 127.0.0.1 school-microapp.oceanengine.com
@@ -7291,6 +7293,7 @@
 127.0.0.1 starkgame.zijieapi.com
 127.0.0.1 startup.mobile.yandex.net
 127.0.0.1 stat.10jqka.com.cn
+127.0.0.1 stat.58.xgo.com.cn
 127.0.0.1 stat.adintl.cn
 127.0.0.1 stat.funshion.net
 127.0.0.1 stat.gamedl.qq.com
@@ -7467,6 +7470,7 @@
 127.0.0.1 timon.zijieapi.com
 127.0.0.1 tingfeng.chanct.cn
 127.0.0.1 tj.b.qq.com
+127.0.0.1 tj.g.pptv.com
 127.0.0.1 tj.kugou.com
 127.0.0.1 tj.video.qq.com
 127.0.0.1 tk.anythinktech.com
@@ -7744,14 +7748,14 @@
 127.0.0.1 v7.cnzz.com
 127.0.0.1 v8.cnzz.com
 127.0.0.1 v9-be-pack.pglstatp-toutiao.com
-127.0.0.1 v9-linkchat.oceanengine.com
 127.0.0.1 v9.cnzz.com
+127.0.0.1 val.atm.cp31.ott.cibntv.net
 127.0.0.1 valf.atm.cp31.ott.cibntv.net
+127.0.0.1 vali-dns.cp31.ott.cibntv.net
 127.0.0.1 vali-g1.cp31.ott.cibntv.net
 127.0.0.1 vali-ugc.cp31.ott.cibntv.net
 127.0.0.1 vali.cp31.ott.cibntv.net
 127.0.0.1 validate.appsflyer.com
-127.0.0.1 valipl.cp31.ott.cibntv.net
 127.0.0.1 vas-hl-x.snssdk.com
 127.0.0.1 vas-lf-x.snssdk.com
 127.0.0.1 vast.w.inmobi.com
