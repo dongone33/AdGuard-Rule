@@ -1,5 +1,5 @@
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - regex.txt
-# Update time: 2026-10-02 01:56:43
+# Update time: 2026-10-02 11:40:51
 # Expires: 12 hours
 # Repo URL:: https://github.com/dongone33/AdGuard-Rule
 
