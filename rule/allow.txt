@@ -1,5 +1,5 @@
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - allow.txt
-# Update time: 2026-10-03 23:39:28
+# Update time: 2026-10-04 11:53:33
 # Expires: 12 hours
 # Repo URL:: https://github.com/dongone33/AdGuard-Rule
 
@@ -40,7 +40,6 @@
 @@||cdn.datatables.net^
 @@||reports.adguard.com^
 @@||s.optnx.com^
-@@||chaturbate.com^
 @@||local.adguard.org^
 @@||adv.bloop.info^
 @@||download.adguard.com^
@@ -64,6 +63,7 @@
 @@||cdn*.porn300.com^
 @@||banner.dna.fi^
 @@||ad.kazakinfo.com^
+@@||ad.ourgame.com^
 @@||advert.kf5.com^
 @@||api.ads.tvb.com^
 @@||app-advertise.zhihuishu.com^
@@ -247,9 +247,9 @@
 @@||ads.finance^
 @@||ads.taboola.com^
 @@||autocomplete.clearbit.com^
-@@||chart-embed.service.newrelic.com^
 @@||tracker.eu.org^
 @@||stats.uptimerobot.com^
+@@||center-h5api.m.taobao.com^
 @@||app.adjust.com^
 @@||uland.taobao.com^
 @@||advertisement.taobao.com^
@@ -397,6 +397,7 @@
 @@||v.miguvideo.com^
 @@||edu-image.nosdn.127.net^
 @@||yanxuan.nosdn.127.net^
+@@||qwhdcdn.cmcc-cs.cn^
 @@||pic2.zhimg.com^
 @@||lf6-imcloud-file-sign.bytetos.com^
 @@||lf3-imcloud-file-sign.bytetos.com^
@@ -615,6 +616,7 @@
 @@||360buyimg.com^
 @@||360kuai.com^
 @@||3975.com^
+@@||39d0825d09f05.cdn.sohucs.com^
 @@||3d-platform-pro.obs.cn-south-1.myhuaweicloud.com^
 @@||3g.163.com^
 @@||3g.ali213.net^
@@ -1010,16 +1012,10 @@
 @@||cdnfinder.xyz^
 @@||cdnjs.cloudflare.com^
 @@||cdnjs.com^
-@@||cf.aliyun.com^
 @@||cfg.imtt.qq.com^
 @@||cfm.jd.com^
 @@||cg.163.com^
-@@||channel.shouji.sogou.com^
-@@||channels.weixin.qq.com^
 @@||chat.deepseek.com^
-@@||chat.doubao.com^
-@@||checkcoverage.apple.com^
-@@||chrome-infra-packages.appspot.com^
 @@||ci.xiaohongshu.com^
 @@||cl2.webterren.com^
 @@||clarins.com.cn^
@@ -1230,7 +1226,6 @@
 @@||defaultts.tc.qq.com^
 @@||detail.meizu.com^
 @@||detail.zol.com.cn^
-@@||dev.miuiflash.com^
 @@||developer.extscreen.com^
 @@||devuploads.com^
 @@||dfcfw.com^
@@ -1371,7 +1366,6 @@
 @@||exporntoons.net^
 @@||f*.market.mi-img.com^
 @@||f*.market.xiaomi.com^
-@@||f-vali.cp31.ott.cibntv.net^
 @@||f.51240.com^
 @@||f.bmcx.com^
 @@||f.video.weibocdn.com^
@@ -1835,6 +1829,7 @@
 @@||lf9-mgsdk-sign.dailygn.com^
 @@||lf9-open-ma-pkg-sign.bytemastatic.com^
 @@||liangcang-material.alicdn.com^
+@@||lib.sinaapp.com^
 @@||life.cup.com.cn^
 @@||lifemakeovermysg.archosaur.com^
 @@||lightframe.vilinko.com^
@@ -2444,6 +2439,7 @@
 @@||qqadapt.qpic.cn^
 @@||qqlogin.huanleapp.huanle.qq.com^
 @@||qqvip-web.cdn-go.cn^
+@@||qr.cp31.ott.cibntv.net^
 @@||quan.suning.com^
 @@||quapp.shenbabao.com^
 @@||quark.cn^
@@ -2939,6 +2935,8 @@
 @@||v6.pic.upqzfile.com^
 @@||v9-mllqsv.onewsvod.com^
 @@||v9-x.toutiaovod.com^
+@@||vali-dns.cp31.ott.cibntv.net^
+@@||vali-g1.cp31.ott.cibntv.net^
 @@||vcs.snssdk.com^
 @@||vd.l.qq.com^
 @@||vd0.market.xiaomi.com^
@@ -3548,8 +3546,6 @@
 @@||cdn2.unrealengine.com^$important
 @@||cert.int-x3.letsencrypt.org^$important
 @@||certs.apple.com^$important
-@@||chromeos-ca.gstatic.com^$important
-@@||chromeosquirksserver-pa.googleapis.com^$important
 @@||click.aliyun.com^$important
 @@||clientconfig.microsoftonline-p.net^$important
 @@||clients1.google.com^$important
@@ -3946,7 +3942,6 @@
 @@||mediation.adnxs.com^$important
 @@||disneyplus.bn5x.net^$important
 @@||mx.technolutions.net^$important
-@@||chrome-infra-packages.appspot.com^$important
 @@||s.click.taobao.com^$important
 @@||acs.m.taobao.com^$important
 @@||s.click.tmall.com^$important
@@ -3977,6 +3972,7 @@
 @@||appsupport.qq.com^$important
 @@||hao123.com^$important
 @@||synology.com^$important
+@@||lanzous.com^$important
 @@||download.parallels.com^$important
 @@||get.sogou.com^$important
 @@||go.oracle.com^$important
