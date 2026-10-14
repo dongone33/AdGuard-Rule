@@ -1,5 +1,5 @@
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - allow.txt
-# Update time: 2026-10-14 02:52:03
+# Update time: 2026-10-14 11:11:14
 # Expires: 12 hours
 # Repo URL:: https://github.com/dongone33/AdGuard-Rule
 
@@ -63,6 +63,7 @@
 @@||cdn*.porn300.com^
 @@||banner.dna.fi^
 @@||ad.kazakinfo.com^
+@@||ad.ourgame.com^
 @@||advert.kf5.com^
 @@||api.ads.tvb.com^
 @@||app-advertise.zhihuishu.com^
@@ -172,7 +173,6 @@
 @@||analytics.amplitude.com^|
 @@||goto.target.com^|
 @@||goto.walmart.com^|
-@@||citiintl.122.2o7.net^|
 @@||ma135-r.analytics.edgekey.net^|
 @@||79423.analytics.edgekey.net^|
 @@||classliving.lpages.co^|
@@ -233,7 +233,7 @@
 @@||clk*.tradedoubler.com^|
 @@||href.li^|
 @@||str.hit.gemius.pl^|
-@@||5471782.fls.doubleclick.net^|
+@@||track.rutarget.ru^|
 @@||omniture.walmart.com^|
 @@||mhc-ajax-eu.myhomescreen.tv^
 @@||mhc-ajax-eu-s2.myhomescreen.tv^
@@ -246,17 +246,17 @@
 @@||ads.finance^
 @@||ads.taboola.com^
 @@||autocomplete.clearbit.com^
+@@||tracker.eu.org^
 @@||stats.uptimerobot.com^
+@@||center-h5api.m.taobao.com^
 @@||app.adjust.com^
 @@||uland.taobao.com^
-@@||advertisement.taobao.com^
 @@||baozhang.baidu.com^
 @@||ad.siemens.com.cn^
 @@||sdkapi.sms.mob.com^
 @@||tj.gov.cn^
 @@||sax.sina.com.cn^
 @@||news-app.abumedia.yql.yahoo.com^
-@@||passport.bobo.com^
 @@||stat.jseea.cn^
 @@||widget.intercom.io^
 @@||www.msftconnecttest.com^
@@ -289,7 +289,6 @@
 @@||adashx.ut.dingtalk.com^
 @@||h-adashx.ut.dingtalk.com^
 @@||ads.95516.com^
-@@||adverts.1foo.com^
 @@||ads.smartmidea.net^
 @@||widget.ezidebit.com.au^
 @@||code.sms.mob.com^
@@ -381,6 +380,7 @@
 @@||staticsns.cdn.bcebos.com^
 @@||tcbox.baidu.com^
 @@||nsclick.baidu.com^
+@@||ylog.huya.com^
 @@||p1-dcd.byteimg.com^
 @@||p3-dcd.byteimg.com^
 @@||p9-dcd.byteimg.com^
@@ -440,6 +440,7 @@
 @@||vcs-quality.zijieapi.com^
 @@||lf*-baike.searchpstatp.com^
 @@||tvapp.hpplay.cn^
+@@||h5.hpplay.com.cn^
 @@||sl.hpplay.cn^
 @@||conf.hpplay.cn^
 @@||wgo.mmstat.com^
@@ -1007,6 +1008,14 @@
 @@||cdnfinder.xyz^
 @@||cdnjs.cloudflare.com^
 @@||cdnjs.com^
+@@||cf.aliyun.com^
+@@||cfg.imtt.qq.com^
+@@||cfm.jd.com^
+@@||cg.163.com^
+@@||channel.shouji.sogou.com^
+@@||checkcoverage.apple.com^
+@@||chrome-infra-packages.appspot.com^
+@@||ci.xiaohongshu.com^
 @@||cl2.webterren.com^
 @@||clarins.com.cn^
 @@||cli.im^
@@ -1266,9 +1275,11 @@
 @@||doris.yidianzixun.com^
 @@||dot.360.cn^
 @@||down-tencent.huorong.cn^
+@@||down-update.qq.com^
 @@||down.anticheatexpert.com^
 @@||down.sandai.net^
 @@||down1.vilinko.com^
+@@||download-cdn.clf.jetbrains.com.cn^
 @@||download-cdn.jetbrains.com.cn^
 @@||download-cdn.jetbrains.com^
 @@||download.alicdn.com^
@@ -1286,6 +1297,7 @@
 @@||downum.game.uc.cn^
 @@||downv6.qq.com^
 @@||dpmtpush.dianping.com^
+@@||dpurl.cn^
 @@||dragate-cn.dc.heytapmobi.com^
 @@||dragate.dc.oppomobile.com^
 @@||dreport.meituan.net^
@@ -1513,13 +1525,17 @@
 @@||h5api.m.goofish.com^
 @@||h5api.m.taobao.com^
 @@||h5api.m.tmall.com^
+@@||h5fs.coloros.com^
 @@||h5offline.zhuanzhuan.com^
 @@||h5s.kuwo.cn^
+@@||h5static.cc.163.com^
 @@||h5static.kuwo.cn^
 @@||hanime1.me^
 @@||haohuo.jinritemai.com^
 @@||haohuo.snssdk.com^
+@@||haoka.lot-ml.com^
 @@||haokan.baidu.com^
+@@||haokawx.lot-ml.com^
 @@||haoma.163.com^
 @@||hapi.hi.163.com^
 @@||hc.tdm.qq.com^
@@ -1585,6 +1601,7 @@
 @@||i2.chuimg.com^
 @@||i2.hdslb.com^
 @@||i72.lanzoug.com^
+@@||i82.lanzoug.com^
 @@||iaas.cloud.tencent.com^
 @@||iask.cn^
 @@||iassapi.cup.com.cn^
@@ -1653,6 +1670,7 @@
 @@||img.samsungapps.com^
 @@||img.sogoucdn.com^
 @@||img.soulapp.cn^
+@@||img.ssl.msdk.qq.com^
 @@||img.tapimg.com^
 @@||img.xmcdn.com^
 @@||img.youpin.mi-img.com^
@@ -1679,6 +1697,7 @@
 @@||imgsrc.baidu.com^
 @@||imgx.mediav.com^
 @@||imop.com^
+@@||imtt.dd.qq.com^
 @@||in.appcenter.ms^
 @@||increase-openapi.soulapp.cn^
 @@||inews.gtimg.com^
@@ -1726,6 +1745,7 @@
 @@||jianghu.163.com^
 @@||jiathis.com^
 @@||jiazhang.gm.163.com^
+@@||jiazhang.qq.com^
 @@||jiguang.coc.10086.cn^
 @@||jihulab.com^
 @@||jikipedia.com^
@@ -1755,7 +1775,6 @@
 @@||jupiter.sys.miui.com^
 @@||jvod.300hu.com^
 @@||jxdown.com^
-@@||k.sinaimg.cn^
 @@||kankan.xunlei.com^
 @@||kdocs.cn^
 @@||keepassxc.org^
@@ -2057,6 +2076,7 @@
 @@||ms.jr.jd.com^
 @@||ms.vipstatic.com^
 @@||msdk.qq.com^
+@@||msdn.itellyou.cn^
 @@||mse.360.cn^
 @@||msec.opposhop.cn^
 @@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
@@ -2280,7 +2300,6 @@
 @@||passport.baidu.com^
 @@||passport.bilibili.com^
 @@||passport.goofish.com^
-@@||passport.iqiyi.com^
 @@||passport.qidian.com^
 @@||passport.vivo.com^
 @@||passport.weibo.cn^
@@ -2419,6 +2438,7 @@
 @@||qqadapt.qpic.cn^
 @@||qqlogin.huanleapp.huanle.qq.com^
 @@||qqvip-web.cdn-go.cn^
+@@||qr.cp31.ott.cibntv.net^
 @@||quan.suning.com^
 @@||quapp.shenbabao.com^
 @@||quark.cn^
@@ -2452,7 +2472,6 @@
 @@||render.amap.com^
 @@||report.taptapdada.com^
 @@||res-r.qingjiaota.com^
-@@||res-static.hc-cdn.cn^
 @@||res-video.hc-cdn.com^
 @@||res.126.net^
 @@||res.app.coc.10086.cn^
@@ -2794,6 +2813,9 @@
 @@||tousu.sina.cn^
 @@||tousu.sina.com.cn^
 @@||tpstelemetry.tencent.com^
+@@||track.sohu.com^
+@@||tracker.ai.xiaomi.com^
+@@||tracker.didistatic.com^
 @@||trade-acs.m.taobao.com^
 @@||train.17u.cn^
 @@||translator.qq.com^
@@ -2911,6 +2933,9 @@
 @@||v6-nimg.ws.126.net^
 @@||v6.pic.upqzfile.com^
 @@||v9-mllqsv.onewsvod.com^
+@@||vali-dns.cp31.ott.cibntv.net^
+@@||vali-g1.cp31.ott.cibntv.net^
+@@||vali01.cp31.ott.cibntv.net^
 @@||vcs.snssdk.com^
 @@||vd.l.qq.com^
 @@||vd0.market.xiaomi.com^
@@ -3064,7 +3089,6 @@
 @@||www.bootcss.com^
 @@||www.bytedance.com^
 @@||www.chemdraw.com.cn^
-@@||www.chinaunicom.com.cn^
 @@||www.chinaunicom.com^
 @@||www.chmlfrp.net^
 @@||www.clips4sale.com^
@@ -3251,10 +3275,14 @@
 @@||xvideos.com^
 @@||xyq.163.com^
 @@||y.gtimg.cn^
+@@||y.qq.com^
 @@||yande.re^
 @@||yeah.163.com^
 @@||yep.com^
 @@||yhd.com^
+@@||yixiu-abtest.alicdn.com^
+@@||ykimg.com^
+@@||ym.163.com^
 @@||youdata.163.com^
 @@||young.duba.net^
 @@||youtu.be^
@@ -3515,6 +3543,10 @@
 @@||cdn.uci.officeapps.live.com^$important
 @@||cdn1.unrealengine.com^$important
 @@||cdn2.unrealengine.com^$important
+@@||cert.int-x3.letsencrypt.org^$important
+@@||certs.apple.com^$important
+@@||chromeos-ca.gstatic.com^$important
+@@||chromeosquirksserver-pa.googleapis.com^$important
 @@||click.aliyun.com^$important
 @@||clientconfig.microsoftonline-p.net^$important
 @@||clients1.google.com^$important
@@ -3843,16 +3875,17 @@
 @@||www.outlook.com^$important
 @@||www.sway.com^$important
 @@||www.wandoujia.com^$important
-@@||www.xn--sss604efuw.com^
 @@||xn--vhq3x51dn9bivas49nfps.com^
 @@||xp-cdn.apple.com^$important
 @@||xp.apple.com^$important
+@@||ynuf.alipay.com^
 @@||youtubeeducation.com^$important
 @@||z3.cnzz.com^
 @@||zhebk.cn^$important
 @@||zhuanzhuan.com^
 @@||zixu.site^$important
 @@||smartplg.com^
+@@||ykf.ichongqing.info^
 @@||captcha.95516.com^
 @@||device.95516.com^
 @@||open.95516.com^
@@ -3910,6 +3943,7 @@
 @@||mediation.adnxs.com^$important
 @@||disneyplus.bn5x.net^$important
 @@||mx.technolutions.net^$important
+@@||chrome-infra-packages.appspot.com^$important
 @@||s.click.taobao.com^$important
 @@||acs.m.taobao.com^$important
 @@||s.click.tmall.com^$important
